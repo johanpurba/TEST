@@ -4,6 +4,8 @@
 
 ----
 
+# SEMUA AKAN MATI PADA WAKTUNYA
+
 ## Installation for Termux
 
 ```sh
@@ -11,30 +13,30 @@ $ apt update
 $ apt upgrade
 $ apt install python
 $ apt install git
-$ git clone https://github.com/muhmursalind/HelloWorld
-$ cd HelloWorld
+$ git clone https://github.com/PHIEZUKE/TEST
+$ cd TEST
 $ python -m pip install -r requirements.txt
-$ python helloworld.py
+$ python [U1-U2-U3-U4-U5-U6].py
 ```
 
 ## Installation for VPS
 
 ```sh
-$ git clone https://github.com/muhmursalind/HelloWorld
-$ cd HelloWorld
+$ git clone https://github.com/PHIEZUKE/TEST
+$ cd TESR
 $ python3 -m pip install -r requirements.txt
-$ python3 helloworld.py
+$ python3 [U1-U2-U3-U4-U5-U6].py
 ```
 
 ## Attention
 
-for the first time running python helloworld.py will be an error
+for the first time running python [U1-U2-U3-U4-U5-U6].py will be an error
 
 ## LINE
-[HelloWorld Square](https://line.me/ti/g2/LPYXUFI1YE)
+[On Square](https://line.me/ti/g2/LPYXUX4YE)
 
 ## Discord
-[HelloWorld](https://discord.gg/5jqbutB)
+[TEST](https://discord.gg/5jsqutF)
 
 ## Thanks For Author linepy
-Fadhiil Rachman / [@fadhiilrachman](https://www.instagram.com/fadhiilrachman)
+Fadhiil Rachman / [@fadhiilrachman]
