@@ -19,7 +19,7 @@ try:
 						with open("authToken.txt","w") as token:
 							token.write(client.authToken)
 						continue
-					client = LINE(authToken, speedThrift=False, appName="{}\t2.1.5\tHelloWorld\t11.2.5".format(app))
+					client = LINE(authToken, speedThrift=False, appName="{}\t2.1.5\tPH_13\t11.2.5".format(app))
 				break
 			except Exception as error:
 				print(error)
@@ -184,13 +184,13 @@ def menuHelp():
 	else:
 		key = ''
 	menuHelp =	"[ Help Message ]" + "\n" + \
-				". " + key + "Self" + "\n" + \
-				". " + key + "Group" + "\n" + \
-				". " + key + "Special" + "\n" + \
-				". " + key + "Media" + "\n" + \
-				". " + key + "Creator" + "\n" + \
-				". " + key + "About" + "\n" + \
-				". " + key + "Translate" + "\n" + \
+				"🐿 " + key + "Self" + "\n" + \
+				"🐿 " + key + "Group" + "\n" + \
+				"🐿 " + key + "Special" + "\n" + \
+				"🐿 " + key + "Media" + "\n" + \
+				"🐿 " + key + "Creator" + "\n" + \
+				"🐿 " + key + "About" + "\n" + \
+				"🐿 " + key + "Translate" + "\n" + \
 				". TextToSpeech"
 	return menuHelp
 
@@ -200,19 +200,19 @@ def menuHelp1():
 	else:
 		key = ''
 	menuHelp1 =	"[ Menu Self ]" + "\n" + \
-				". " + key + "Me" + "\n" + \
-				". " + key + "MyMid" + "\n" + \
-				". " + key + "MyName" + "\n" + \
-				". " + key + "MyBio" + "\n" + \
-				". " + key + "MyPicture" + "\n" + \
-				". " + key + "MyVideoProfile" + "\n" + \
-				". " + key + "MyCover" + "\n" + \
-				". " + key + "MyProfile" + "\n" + \
-				". " + key + "GetMid @Mention" + "\n" + \
-				". " + key + "GetName @Mention" + "\n" + \
-				". " + key + "GetBio @Mention" + "\n" + \
-				". " + key + "GetPicture @Mention" + "\n" + \
-				". " + key + "GetVideoProfile @Mention" + "\n" + \
+				"🐜 " + key + "Me" + "\n" + \
+				"🐜 " + key + "MyMid" + "\n" + \
+				"🐜 " + key + "MyName" + "\n" + \
+				"🐜 " + key + "MyBio" + "\n" + \
+				"🐜 " + key + "MyPicture" + "\n" + \
+				"🐜 " + key + "MyVideoProfile" + "\n" + \
+				"🐜 " + key + "MyCover" + "\n" + \
+				"🐜 " + key + "MyProfile" + "\n" + \
+				"🐜 " + key + "GetMid @Mention" + "\n" + \
+				"🐜 " + key + "GetName @Mention" + "\n" + \
+				"🐜 " + key + "GetBio @Mention" + "\n" + \
+				"🐜 " + key + "GetPicture @Mention" + "\n" + \
+				"🐜 " + key + "GetVideoProfile @Mention" + "\n" + \
 				". GetCover @Mention"
 	return menuHelp1
 
@@ -222,17 +222,17 @@ def menuHelp2():
 	else:
 		key = ''
 	menuHelp2 =	"[ Menu Group ]" + "\n" + \
-				". " + key + "ChangeGroupName: 「Text」" + "\n" + \
-				". " + key + "GroupID" + "\n" + \
-				". " + key + "GroupName" + "\n" + \
-				". " + key + "GroupPicture" + "\n" + \
-				". " + key + "OpenQR" + "\n" + \
-				". " + key + "CloseQR" + "\n" + \
-				". " + key + "GroupList" + "\n" + \
-				". " + key + "MemberList" + "\n" + \
-				". " + key + "PendingList" + "\n" + \
-				". " + key + "GroupInfo" + "\n" + \
-				". " + key + "Mentionall" + "\n" + \
+				"🕊 " + key + "ChangeGroupName: 「Text」" + "\n" + \
+				"🕊 " + key + "GroupID" + "\n" + \
+				"🕊 " + key + "GroupName" + "\n" + \
+				"🕊 " + key + "GroupPicture" + "\n" + \
+				"🕊 " + key + "OpenQR" + "\n" + \
+				"🕊 " + key + "CloseQR" + "\n" + \
+				"🕊 " + key + "GroupList" + "\n" + \
+				"🕊 " + key + "MemberList" + "\n" + \
+				"🕊 " + key + "PendingList" + "\n" + \
+				"🕊 " + key + "GroupInfo" + "\n" + \
+				"🕊 " + key + "Mentionall" + "\n" + \
 				". ChangeGroupPicture"
 	return menuHelp2
 
@@ -242,11 +242,11 @@ def menuHelp3():
 	else:
 		key = ''
 	menuHelp3 =	"[ Menu Special ]" + "\n" + \
-				". " + key + "Mimic 「On/Off」" + "\n" + \
-				". " + key + "MimicList" + "\n" + \
-				". " + key + "MimicAdd @Mention" + "\n" + \
-				". " + key + "MimicDel @Mention" + "\n" + \
-				". " + key + "Lurking 「On/Off」" + "\n" + \
+				"🐅 " + key + "Mimic 「On/Off」" + "\n" + \
+				"🐅 " + key + "MimicList" + "\n" + \
+				"🐅 " + key + "MimicAdd @Mention" + "\n" + \
+				"🐅 " + key + "MimicDel @Mention" + "\n" + \
+				"🐅 " + key + "Lurking 「On/Off」" + "\n" + \
 				". Lurking"
 	return menuHelp3
 
@@ -256,12 +256,12 @@ def menuHelp4():
 	else:
 		key = ''
 	menuHelp4 =	"[ Menu Media ]" + "\n" + \
-				". " + key + "InstaInfo 「Username」" + "\n" + \
-				". " + key + "InstaStory 「Username」" + "\n" + \
-				". " + key + "Quotes" + "\n" + \
-				". " + key + "SearchImage 「Search」" + "\n" + \
-				". " + key + "SearchMusic 「Search」" + "\n" + \
-				". " + key + "SearchLyric 「Search」" + "\n" + \
+				"🐥 " + key + "InstaInfo 「Username」" + "\n" + \
+				"🐥 " + key + "InstaStory 「Username」" + "\n" + \
+				"🐥 " + key + "Quotes" + "\n" + \
+				"🐥 " + key + "SearchImage 「Search」" + "\n" + \
+				"🐥 " + key + "SearchMusic 「Search」" + "\n" + \
+				"🐥 " + key + "SearchLyric 「Search」" + "\n" + \
 				". SearchYoutube 「Search」"
 	return menuHelp4
 
@@ -271,16 +271,16 @@ def menuHelp5():
 	else:
 		key = ''
 	menuHelp5 =	"[ Remote Bot ]" + "\n" + \
-				". " + key + "Logoutt" + "\n" + \
-				". " + key + "Restart" + "\n" + \
-				". " + key + "Runtime" + "\n" + \
-				". " + key + "Speed" + "\n" + \
-				". " + key + "Status" + "\n" + \
-				". " + key + "CloneProfile @Mention" + "\n" + \
-				". " + key + "RestoreProfile" + "\n" + \
-				". " + key + "BackupProfile" + "\n" + \
-				". " + key + "FriendList" + "\n" + \
-				". " + key + "FriendInfo 「Number」" + "\n" + \
+				"🐼 " + key + "Logoutt" + "\n" + \
+				"🐼 " + key + "Restart" + "\n" + \
+				"🐼 " + key + "Runtime" + "\n" + \
+				"🐼 " + key + "Speed" + "\n" + \
+				"🐼 " + key + "Status" + "\n" + \
+				"🐼 " + key + "CloneProfile @Mention" + "\n" + \
+				"🐼 " + key + "RestoreProfile" + "\n" + \
+				"🐼 " + key + "BackupProfile" + "\n" + \
+				"🐼 " + key + "FriendList" + "\n" + \
+				"🐼 " + key + "FriendInfo 「Number」" + "\n" + \
 				". BlockList"
 	return menuHelp5
 
@@ -292,20 +292,20 @@ def menuHelp6():
 	menuHelp6 =	"[ Menu Auto Setting ]" + "\n" + \
 				". SetKey 「On/Off」" + "\n" + \
 				". MyKey" + "\n" + \
-				". " + key + "AutoAdd 「On/Off」" + "\n" + \
-				". " + key + "AutoJoin 「On/Off」" + "\n" + \
-				". " + key + "AutoJoinTicket 「On/Off」" + "\n" + \
-				". " + key + "AutoRead 「On/Off」" + "\n" + \
-				". " + key + "AutoRespon 「On/Off」" + "\n" + \
-				". " + key + "CheckContact 「On/Off」" + "\n" + \
-				". " + key + "CheckPost 「On/Off」" + "\n" + \
-				". " + key + "CheckSticker 「On/Off」" + "\n" + \
-				". " + key + "DetectUnsend 「On/Off」" + "\n" + \
-				". " + key + "SetKey: 「text」" + "\n" + \
-				". " + key + "SetAutoAddMessage: 「text」" + "\n" + \
-				". " + key + "SetAutoResponMessage: 「text」" + "\n" + \
-				". " + key + "SetAutoJoinMessage: 「Text」" + "\n" + \
-				". " + key + "GroupBroadcast: 「Text」" + "\n" + \
+				"🦂 " + key + "AutoAdd 「On/Off」" + "\n" + \
+				"🦂 " + key + "AutoJoin 「On/Off」" + "\n" + \
+				"🦂 " + key + "AutoJoinTicket 「On/Off」" + "\n" + \
+				"🦂 " + key + "AutoRead 「On/Off」" + "\n" + \
+				"🦂 " + key + "AutoRespon 「On/Off」" + "\n" + \
+				"🦂 " + key + "CheckContact 「On/Off」" + "\n" + \
+				"🦂 " + key + "CheckPost 「On/Off」" + "\n" + \
+				"🦂 " + key + "CheckSticker 「On/Off」" + "\n" + \
+				"🦂 " + key + "DetectUnsend 「On/Off」" + "\n" + \
+				"🦂 " + key + "SetKey: 「text」" + "\n" + \
+				"🦂 " + key + "SetAutoAddMessage: 「text」" + "\n" + \
+				"🦂 " + key + "SetAutoResponMessage: 「text」" + "\n" + \
+				"🦂 " + key + "SetAutoJoinMessage: 「Text」" + "\n" + \
+				"🦂 " + key + "GroupBroadcast: 「Text」" + "\n" + \
 				". FriendBroadcast: [Text]"
 	return menuHelp6
 
@@ -315,11 +315,11 @@ def menuHelp7():
 	else:
 		key = ''
 	menuHelp7 =	"[ Spam ]" + "\n" + \
-				". " + key + "Saya Adalah Bot Yang Punya Hati" + "\n" + \
-				". " + key + "Saya Adalah Bot Yang Punya Perasaan" + "\n" + \
-				". " + key + "Saya Adalah Bot Bukan Mainan Terus Menurus" + "\n" + \
-				". " + key + "Saya Adalah Bot Punya Harga Diri" + "\n" + \
-				". " + key + "TolongLah Kalian Jangan Spam Bot" + "\n" + \
+				"🙊 " + key + "Saya Adalah Bot Yang Punya Hati" + "\n" + \
+				"🙊 " + key + "Saya Adalah Bot Yang Punya Perasaan" + "\n" + \
+				"🙊 " + key + "Saya Adalah Bot Bukan Mainan Terus Menurus" + "\n" + \
+				"🙊 " + key + "Saya Adalah Bot Punya Harga Diri" + "\n" + \
+				"🙊 " + key + "TolongLah Kalian Jangan Spam Bot" + "\n" + \
 				". Dan Jangan Sombong"
 	return menuHelp7
 
@@ -329,8 +329,8 @@ def menuHelp8():
 	else:
 		key = ''
 	menuHelp8 =	"[ MyBot Settings ]" + "\n" + \
-				". " + key + "Autoset" + "\n" + \
-				". " + key + "Remote" + "\n" + \
+				"🐰 " + key + "Autoset" + "\n" + \
+				"🐰 " + key + "Remote" + "\n" + \
 				"[ MyBot Settings ]"
 	return menuHelp8
 
@@ -339,7 +339,7 @@ def menuTextToSpeech():
 		key = settings['keyCommand']
 	else:
 		key = ''
-	menuTextToSpeech =	"╔══[ Text To Speech ]" + "\n" + \
+	menuTextToSpeech =	"╔▬▬▬ Text To Speech ]" + "\n" + \
 						"╠ " + key + "af : Afrikaans" + "\n" + \
 						"╠ " + key + "sq : Albanian" + "\n" + \
 						"╠ " + key + "ar : Arabic" + "\n" + \
@@ -393,7 +393,7 @@ def menuTextToSpeech():
 						"╠ " + key + "uk : Ukrainian" + "\n" + \
 						"╠ " + key + "vi : Vietnamese" + "\n" + \
 						"╠ " + key + "cy : Welsh" + "\n" + \
-						"╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
+						"╚▬▬▬ Jangan Typo ]" + "\n" + "\n\n" + \
 						"Contoh : " + key + "say-id chiken"
 	return menuTextToSpeech
 
@@ -402,7 +402,7 @@ def menuTranslate():
 		key = settings['keyCommand']
 	else:
 		key = ''
-	menuTranslate =	"╔══[ Translate ]" + "\n" + \
+	menuTranslate =	"╔▬▬▬ Translate ]" + "\n" + \
 					"╠ " + key + "af : afrikaans" + "\n" + \
 					"╠ " + key + "sq : albanian" + "\n" + \
 					"╠ " + key + "am : amharic" + "\n" + \
@@ -509,7 +509,7 @@ def menuTranslate():
 					"╠ " + key + "zu : zulu" + "\n" + \
 					"╠ " + key + "fil : Filipino" + "\n" + \
 					"╠ " + key + "he : Hebrew" + "\n" + \
-					"╚══[ Jangan Typo ]" + "\n" + "\n\n" + \
+					"╚▬▬▬ Jangan Typo ]" + "\n" + "\n\n" + \
 					"Contoh : " + key + "tr-id chiken"
 	return menuTranslate
 
