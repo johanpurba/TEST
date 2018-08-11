@@ -191,7 +191,7 @@ def menuHelp():
 				"🐿 " + key + "Creator" + "\n" + \
 				"🐿 " + key + "About" + "\n" + \
 				"🐿 " + key + "Translate" + "\n" + \
-				". TextToSpeech"
+				"🐿 TextToSpeech"
 	return menuHelp
 
 def menuHelp1():
@@ -213,7 +213,7 @@ def menuHelp1():
 				"🐜 " + key + "GetBio @Mention" + "\n" + \
 				"🐜 " + key + "GetPicture @Mention" + "\n" + \
 				"🐜 " + key + "GetVideoProfile @Mention" + "\n" + \
-				". GetCover @Mention"
+				"🐜 GetCover @Mention"
 	return menuHelp1
 
 def menuHelp2():
@@ -233,7 +233,7 @@ def menuHelp2():
 				"🕊 " + key + "PendingList" + "\n" + \
 				"🕊 " + key + "GroupInfo" + "\n" + \
 				"🕊 " + key + "Mentionall" + "\n" + \
-				". ChangeGroupPicture"
+				"🕊 ChangeGroupPicture"
 	return menuHelp2
 
 def menuHelp3():
@@ -247,7 +247,7 @@ def menuHelp3():
 				"🐅 " + key + "MimicAdd @Mention" + "\n" + \
 				"🐅 " + key + "MimicDel @Mention" + "\n" + \
 				"🐅 " + key + "Lurking 「On/Off」" + "\n" + \
-				". Lurking"
+				"🐅 Lurking"
 	return menuHelp3
 
 def menuHelp4():
@@ -262,7 +262,7 @@ def menuHelp4():
 				"🐥 " + key + "SearchImage 「Search」" + "\n" + \
 				"🐥 " + key + "SearchMusic 「Search」" + "\n" + \
 				"🐥 " + key + "SearchLyric 「Search」" + "\n" + \
-				". SearchYoutube 「Search」"
+				"🐥 SearchYoutube 「Search」"
 	return menuHelp4
 
 def menuHelp5():
@@ -281,7 +281,7 @@ def menuHelp5():
 				"🐼 " + key + "BackupProfile" + "\n" + \
 				"🐼 " + key + "FriendList" + "\n" + \
 				"🐼 " + key + "FriendInfo 「Number」" + "\n" + \
-				". BlockList"
+				"🐼 BlockList"
 	return menuHelp5
 
 def menuHelp6():
@@ -306,7 +306,7 @@ def menuHelp6():
 				"🦂 " + key + "SetAutoResponMessage: 「text」" + "\n" + \
 				"🦂 " + key + "SetAutoJoinMessage: 「Text」" + "\n" + \
 				"🦂 " + key + "GroupBroadcast: 「Text」" + "\n" + \
-				". FriendBroadcast: [Text]"
+				"🦂 FriendBroadcast: [Text]"
 	return menuHelp6
 
 def menuHelp7():
@@ -320,7 +320,7 @@ def menuHelp7():
 				"🙊 " + key + "Saya Adalah Bot Bukan Mainan Terus Menurus" + "\n" + \
 				"🙊 " + key + "Saya Adalah Bot Punya Harga Diri" + "\n" + \
 				"🙊 " + key + "TolongLah Kalian Jangan Spam Bot" + "\n" + \
-				". Dan Jangan Sombong"
+				"🙊 Dan Jangan Sombong"
 	return menuHelp7
 
 def menuHelp8():
