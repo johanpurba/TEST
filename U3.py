@@ -35,7 +35,7 @@ imagesOpen = codecs.open("image.json","r","utf-8")
 stickersOpen = codecs.open("sticker.json","r","utf-8")
 
 client = LINE()
-#client = LINE("")
+#client = LINE("Ev49wbWDciJuzQi8UG6e.mDIRQD+WthuKlYOGL7ITRG.pAFPZhYHHPSFjqOGUkKn9dqHCER/ZNDUDgOBpLrWJe4=")   #PH-13
 cl = client
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
