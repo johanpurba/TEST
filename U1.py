@@ -662,22 +662,22 @@ def clientBot(op):
 						elif cmd == 'about':
 							try:
 							    arr = []
-							    owner = "ube187443474747c3ec352e7efeb48c1b"
+							    owner = "u4e49fa7389c0333bb7ff38063552791b"
 							    creator = client.getContact(owner)
 							    contact = client.getContact(clientMid)
 							    grouplist = client.getGroupIdsJoined()
 							    contactlist = client.getAllContactIds()
 							    blockedlist = client.getBlockedContactIds()
-							    ret_ = "╔══[ About Bot ]"
+							    ret_ = "╔▬▬▬[ About Bot ]"
 							    ret_ += "\n╠ Name : {}".format(contact.displayName)
 							    ret_ += "\n╠ Group : {}".format(str(len(grouplist)))
 							    ret_ += "\n╠ Friend : {}".format(str(len(contactlist)))
 							    ret_ += "\n╠ Blocked : {}".format(str(len(blockedlist)))
-							    ret_ += "\n╠══[ About Bot ]"
+							    ret_ += "\n╠▬▬▬[ About Bot ]"
 							    ret_ += "\n╠ Type : Publik"
 							    ret_ += "\n╠ Creator : {}".format(creator.displayName)
-							    ret_ += "\n╚══[ About Bot ]"
-							    client.sendMessage(msg.to, "Special Thanks To\n\n-Author LinePy\n-HelloWorld\n-Bot Eater\n-NadyaTj\n-All My Friends")
+							    ret_ += "\n╚▬▬▬[ About Bot ]"
+							    client.sendMessage(msg.to, "Special Thanks To\n\n-ALLAH SWT\n-Author LinePy\n-RAFAMILY\n-AlphatJS\n-All My Friends")
 							    client.sendMessage(to, str(ret_))
 							except Exception as e:
 							    client.sendMessage(msg.to, str(e))
@@ -685,7 +685,7 @@ def clientBot(op):
 
 						elif cmd == "status":
 							try:
-								ret_ = "╔══[ Status ]"
+								ret_ = "╔▬▬▬ Status"
 								if settings["autoAdd"] == True: ret_ += "\n╠ Auto Add : ON"
 								else: ret_ += "\n╠ Auto Add : OFF"
 								if settings["autoJoin"] == True: ret_ += "\n╠ Auto Join : ON"
@@ -706,10 +706,10 @@ def clientBot(op):
 								else: ret_ += "\n╠ Detect Unsend : OFF"
 								if settings["setKey"] == True: ret_ += "\n╠ Set Key : ON"
 								else: ret_ += "\n╠ Set Key : OFF"
-								ret_ +="\n╠ Auto Add Message : {}".format(settings["autoAddMessage"])
-								ret_ +="\n╠ Auto Join Message : {}".format(settings["autoJoinMessage"])
-								ret_ +="\n╠ Auto Respon Message : {}".format(settings["autoResponMessage"])
-								ret_ += "\n╚══[ Status ]"
+								ret_ +="\n╠ Add Message : {}".format(settings["autoAddMessage"])
+								ret_ +="\n╠ Join Message : {}".format(settings["autoJoinMessage"])
+								ret_ +="\n╠ Respon Message : {}".format(settings["autoResponMessage"])
+								ret_ += "\n╚▬▬▬ Status"
 								client.sendMessage(to, str(ret_))
 							except Exception as error:
 								logError(error)
@@ -869,13 +869,13 @@ def clientBot(op):
 						elif cmd == "myprofile":
 							contact = client.getContact(sender)
 							cover = client.getProfileCoverURL(sender)
-							result = "╔══[ Details Profile ]"
+							result = "╔▬▬▬ Details Profile"
 							result += "\n╠ Display Name : @!"
 							result += "\n╠ Mid : {}".format(contact.mid)
 							result += "\n╠ Status Message : {}".format(contact.statusMessage)
 							result += "\n╠ Picture Profile : http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 							result += "\n╠ Cover : {}".format(str(cover))
-							result += "\n╚══[ Finish ]"
+							result += "\n╚▬▬▬ DPO Finish"
 							client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus))
 							client.sendMention(to, result, [sender])
 						elif cmd == "mymid":
@@ -1015,12 +1015,12 @@ def clientBot(op):
 						elif cmd == "friendlist":
 							contacts = client.getAllContactIds()
 							num = 0
-							result = "╔══[ Friend List ]"
+							result = "╔▬▬▬[ Friend List ]"
 							for listContact in contacts:
 								contact = client.getContact(listContact)
 								num += 1
 								result += "\n╠ {}. {}".format(num, contact.displayName)
-							result += "\n╚══[ Total {} Friend ]".format(len(contacts))
+							result += "\n╚▬▬▬[ Total {} Friend ]".format(len(contacts))
 							client.sendMessage(to, result)
 						elif cmd.startswith("friendinfo "):
 							sep = text.split(" ")
@@ -1030,13 +1030,13 @@ def clientBot(op):
 								listContact = contacts[int(query)-1]
 								contact = client.getContact(listContact)
 								cover = client.getProfileCoverURL(listContact)
-								result = "╔══[ Details Profile ]"
+								result = "╔▬▬▬ Details Profile"
 								result += "\n╠ Display Name : @!"
 								result += "\n╠ Mid : {}".format(contact.mid)
 								result += "\n╠ Status Message : {}".format(contact.statusMessage)
 								result += "\n╠ Picture Profile : http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus)
 								result += "\n╠ Cover : {}".format(str(cover))
-								result += "\n╚══[ Finish ]"
+								result += "\n╚▬▬▬ DPO Finish"
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(contact.pictureStatus))
 								client.sendMention(to, result, [contact.mid])
 							except Exception as error:
@@ -1044,12 +1044,12 @@ def clientBot(op):
 						elif cmd == "blocklist":
 							blockeds = client.getBlockedContactIds()
 							num = 0
-							result = "╔══[ List Blocked ]"
+							result = "╔▬▬▬[ List Blocked ]"
 							for listBlocked in blockeds:
 								contact = client.getContact(listBlocked)
 								num += 1
 								result += "\n╠ {}. {}".format(num, contact.displayName)
-							result += "\n╚══[ Total {} Blocked ]".format(len(blockeds))
+							result += "\n╚▬▬▬[ Total {} Blocked ]".format(len(blockeds))
 							client.sendMessage(to, result)
 						elif cmd.startswith("friendbroadcast: "):
 							sep = text.split(" ")
@@ -1097,28 +1097,28 @@ def clientBot(op):
 								client.sendMessage(to, "Group ID : {}".format(group.id))
 						elif cmd == "grouplist":
 							groups = client.getGroupIdsJoined()
-							ret_ = "╔══[ Group List ]"
+							ret_ = "╔▬▬▬[ Group List ]"
 							no = 0
 							for gid in groups:
 								group = client.getGroup(gid)
 								no += 1
 								ret_ += "\n╠ {}. {} | {}".format(str(no), str(group.name), str(len(group.members)))
-							ret_ += "\n╚══[ Total {} Groups ]".format(str(len(groups)))
+							ret_ += "\n╚▬▬▬[ Total {} Groups ]".format(str(len(groups)))
 							client.sendMessage(to, str(ret_))
 						elif cmd == "memberlist":
 							if msg.toType == 2:
 								group = client.getGroup(to)
 								num = 0
-								ret_ = "╔══[ List Member ]"
+								ret_ = "╔▬▬▬[ List Member ]"
 								for contact in group.members:
 									num += 1
 									ret_ += "\n╠ {}. {}".format(num, contact.displayName)
-								ret_ += "\n╚══[ Total {} Members]".format(len(group.members))
+								ret_ += "\n╚▬▬▬[ Total {} Pendosa]".format(len(group.members))
 								client.sendMessage(to, ret_)
 						elif cmd == "pendinglist":
 							if msg.toType == 2:
 								group = client.getGroup(to)
-								ret_ = "╔══[ Pending List ]"
+								ret_ = "╔▬▬▬[ Pending List ]"
 								no = 0
 								if group.invitee is None or group.invitee == []:
 									return client.sendMessage(to, "Tidak ada pendingan")
@@ -1126,7 +1126,7 @@ def clientBot(op):
 									for pending in group.invitee:
 										no += 1
 										ret_ += "\n╠ {}. {}".format(str(no), str(pending.displayName))
-									ret_ += "\n╚══[ Total {} Pending]".format(str(len(group.invitee)))
+									ret_ += "\n╚▬▬▬[ Total {} Nyangkut]".format(str(len(group.invitee)))
 									client.sendMessage(to, str(ret_))
 						elif cmd == "groupinfo":
 							group = client.getGroup(to)
@@ -1145,7 +1145,7 @@ def clientBot(op):
 								else:
 									groupQr = "Terbuka"
 									groupTicket = "https://line.me/R/ti/g/{}".format(str(client.reissueGroupTicket(group.id)))
-								ret_ = "╔══[ Group Information ]"
+								ret_ = "╔▬▬▬Group Information"
 								ret_ += "\n╠ Nama Group : {}".format(group.name)
 								ret_ += "\n╠ ID Group : {}".format(group.id)
 								ret_ += "\n╠ Pembuat : @!"
@@ -1153,11 +1153,11 @@ def clientBot(op):
 								ret_ += "\n╠ Jumlah Pending : {}".format(groupPending)
 								ret_ += "\n╠ Group Qr : {}".format(groupQr)
 								ret_ += "\n╠ Group Ticket : {}".format(groupTicket)
-								ret_ += "\n╚══[ Success ]"
+								ret_ += "\n╚▬▬▬Success Detect"
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(group.pictureStatus))
 								client.sendMention(to, str(ret_), [groupCreator])
 							except:
-								ret_ = "╔══[ Group Information ]"
+								ret_ = "╔▬▬▬Group Information"
 								ret_ += "\n╠ Nama Group : {}".format(group.name)
 								ret_ += "\n╠ ID Group : {}".format(group.id)
 								ret_ += "\n╠ Pembuat : {}".format(groupCreator)
@@ -1165,7 +1165,7 @@ def clientBot(op):
 								ret_ += "\n╠ Jumlah Pending : {}".format(groupPending)
 								ret_ += "\n╠ Group Qr : {}".format(groupQr)
 								ret_ += "\n╠ Group Ticket : {}".format(groupTicket)
-								ret_ += "\n╚══[ Success ]"
+								ret_ += "\n╚▬▬▬Success Detect"
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(group.pictureStatus))
 								client.sendMessage(to, str(ret_))
 						elif cmd.startswith("groupbroadcast: "):
@@ -1183,13 +1183,13 @@ def clientBot(op):
 							midSelect = len(midMembers)//100
 							for mentionMembers in range(midSelect+1):
 								no = 0
-								ret_ = "╔══[ Mention Members ]"
+								ret_ = "╔▬▬▬ Mention Members"
 								dataMid = []
 								for dataMention in group.members[mentionMembers*100 : (mentionMembers+1)*100]:
 									dataMid.append(dataMention.mid)
 									no += 1
 									ret_ += "\n╠ {}. @!".format(str(no))
-								ret_ += "\n╚══[ Total {} Members]".format(str(len(dataMid)))
+								ret_ += "\n╚▬▬▬ Total {} Pendosa]".format(str(len(dataMid)))
 								client.sendMention(to, ret_, dataMid)
 						elif cmd == "lurking on":
 							tz = pytz.timezone("Asia/Makassar")
@@ -1250,11 +1250,11 @@ def clientBot(op):
 									return client.sendMessage(to, "Tidak Ada Sider")
 								else:
 									no = 0
-									result = "╔══[ Reader ]"
+									result = "╔▬▬▬ Reader"
 									for dataRead in read["readMember"][to]:
 										no += 1
 										result += "\n╠ {}. @!".format(str(no))
-									result += "\n╚══[ Total {} Sider ]".format(str(len(read["readMember"][to])))
+									result += "\n╚▬▬▬ Total {} Sider ]".format(str(len(read["readMember"][to])))
 									client.sendMention(to, result, read["readMember"][to])
 									read['readMember'][to] = []
 						elif cmd == "changepictureprofile":
@@ -1282,13 +1282,13 @@ def clientBot(op):
 								client.sendMessage(to, "Tidak Ada Target")
 							else:
 								no = 0
-								result = "╔══[ Mimic List ]"
+								result = "╔▬▬▬[ Mimic List ]"
 								target = []
 								for mid in settings["mimic"]["target"]:
 									target.append(mid)
 									no += 1
 									result += "\n╠ {}. @!".format(no)
-								result += "\n╚══[ Total {} Mimic ]".format(str(len(target)))
+								result += "\n╚▬▬▬[ Total {} Target ]".format(str(len(target)))
 								client.sendMention(to, result, target)
 						elif cmd.startswith("mimicadd "):
 							if 'MENTION' in msg.contentMetadata.keys()!= None:
@@ -1336,7 +1336,7 @@ def clientBot(op):
 							icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/599px-Instagram_icon.png"
 							name = "Instagram"
 							link = "https://www.instagram.com/{}".format(data["result"]["username"])
-							result = "╔══[ Instagram Info ]"
+							result = "╔▬▬▬[ Instagram Info ]"
 							result += "\n╠ Name : {}".format(data["result"]["name"])
 							result += "\n╠ Username: {}".format(data["result"]["username"])
 							result += "\n╠ Bio : {}".format(data["result"]["bio"])
@@ -1344,7 +1344,7 @@ def clientBot(op):
 							result += "\n╠ Following : {}".format(data["result"]["following"])
 							result += "\n╠ Private : {}".format(data["result"]["private"])
 							result += "\n╠ Post : {}".format(data["result"]["mediacount"])
-							result += "\n╚══[ Finish ]"
+							result += "\n╚▬▬▬[ Info User Finish ]"
 							client.sendImageWithURL(to, data["result"]["url"])
 							client.sendFooter(to, result, icon, name, link)
 						elif cmd.startswith("instastory "):
@@ -1365,11 +1365,11 @@ def clientBot(op):
 						elif cmd == "quotes":
 							url = requests.get("https://talaikis.com/api/quotes/random/")
 							data = url.json()
-							result = "╔══[ Quotes ]"
+							result = "╔▬▬▬[ Quotes ]"
 							result += "\n╠ Author : {}".format(data["result"]["author"])
 							result += "\n╠ Category : {}".format(data["result"]["category"])
 							result += "\n╠ Kutipan : {}".format(data["result"]["quote"])
-							result += "\n╚══[ Finish ]"
+							result += "\n╚▬▬▬[ Finish ]"
 							client.sendMessage(to, result)
 						elif cmd.startswith("say-"):
 							sep = text.split("-")
@@ -1394,17 +1394,17 @@ def clientBot(op):
 							data = url.json()
 							if len(cond) == 1:
 								no = 0
-								result = "╔══[ Youtube Search ]"
+								result = "╔▬▬▬[ Youtube Search ]"
 								for anu in data["videos"]:
 									no += 1
 									result += "\n╠ {}. {}".format(str(no),str(anu["title"]))
-								result += "\n╚══[ Total {} Result ]".format(str(len(data["videos"])))
+								result += "\n╚▬▬▬[ Total {} Result ]".format(str(len(data["videos"])))
 								client.sendMessage(to, result)
 							elif len(cond) == 2:
 								num = int(str(cond[1]))
 								if num <= len(data):
 									search = data["videos"][num - 1]
-									ret_ = "╔══[ Youtube Info ]"
+									ret_ = "╔▬▬▬[ Youtube Info ]"
 									ret_ += "\n╠ Channel : {}".format(str(search["publish"]["owner"]))
 									ret_ += "\n╠ Title : {}".format(str(search["title"]))
 									ret_ += "\n╠ Release : {}".format(str(search["publish"]["date"]))
@@ -1413,7 +1413,7 @@ def clientBot(op):
 									ret_ += "\n╠ Dislikes : {}".format(str(search["stats"]["dislikes"]))
 									ret_ += "\n╠ Rating : {}".format(str(search["stats"]["rating"]))
 									ret_ += "\n╠ Description : {}".format(str(search["description"]))
-									ret_ += "\n╚══[ {} ]".format(str(search["webpage"]))
+									ret_ += "\n╚▬▬▬[ {} ]".format(str(search["webpage"]))
 									client.sendImageWithURL(to, str(search["thumbnail"]))
 									client.sendMessage(to, str(ret_))
 						elif cmd.startswith("searchimage "):
@@ -1431,11 +1431,11 @@ def clientBot(op):
 							data = url.json()
 							if len(cond) == 1:
 								num = 0
-								ret_ = "╔══[ Result Music ]"
+								ret_ = "╔▬▬▬[ Result Music ]"
 								for music in data["result"]:
 									num += 1
 									ret_ += "\n╠ {}. {}".format(str(num), str(music["single"]))
-								ret_ += "\n╚══[ Total {} Music ]".format(str(len(data["result"])))
+								ret_ += "\n╚▬▬▬[ Total {} Music ]".format(str(len(data["result"])))
 								ret_ += "\n\nUntuk mengirim music, silahkan gunakan command {}SearchMusic {}|「number」".format(str(setKey), str(search))
 								client.sendMessage(to, str(ret_))
 							elif len(cond) == 2:
@@ -1444,12 +1444,12 @@ def clientBot(op):
 									music = data["result"][num - 1]
 									url = requests.get("http://api.ntcorp.us/joox/song_info?sid={}".format(str(music["sid"])))
 									data = url.json()
-									ret_ = "╔══[ Music ]"
+									ret_ = "╔▬▬▬[ Music ]"
 									ret_ += "\n╠ Title : {}".format(str(data["result"]["song"]))
 									ret_ += "\n╠ Album : {}".format(str(data["result"]["album"]))
 									ret_ += "\n╠ Size : {}".format(str(data["result"]["size"]))
 									ret_ += "\n╠ Link : {}".format(str(data["result"]["mp3"][0]))
-									ret_ += "\n╚══[ Finish ]"
+									ret_ += "\n╚▬▬▬[ Finish ]"
 									client.sendImageWithURL(to, str(data["result"]["img"]))
 									client.sendMessage(to, str(ret_))
 									client.sendAudioWithURL(to, str(data["result"]["mp3"][0]))
@@ -1469,12 +1469,12 @@ def clientBot(op):
 										url = urlList["href"]
 										result.append({"title": title, "url": url})
 								if len(cond) == 1:
-									ret_ = "╔══[ Musixmatch Result ]"
+									ret_ = "╔▬▬▬[ Musixmatch Result ]"
 									num = 0
 									for title in result:
 										num += 1
 										ret_ += "\n╠ {}. {}".format(str(num), str(title["title"]))
-									ret_ += "\n╚══[ Total {} Lyric ]".format(str(len(result)))
+									ret_ += "\n╚▬▬▬[ Total {} Lyric ]".format(str(len(result)))
 									ret_ += "\n\nUntuk melihat lyric, silahkan gunakan command {}SearchLyric {}|「number」".format(str(setKey), str(query))
 									client.sendMessage(to, ret_)
 								elif len(cond) == 2:
@@ -1547,25 +1547,25 @@ def clientBot(op):
 							stk_id = msg.contentMetadata['STKID']
 							stk_ver = msg.contentMetadata['STKVER']
 							pkg_id = msg.contentMetadata['STKPKGID']
-							ret_ = "╔══[ Sticker Info ]"
+							ret_ = "╔▬▬▬[ Sticker Info ]"
 							ret_ += "\n╠ STICKER ID : {}".format(stk_id)
 							ret_ += "\n╠ STICKER PACKAGES ID : {}".format(pkg_id)
 							ret_ += "\n╠ STICKER VERSION : {}".format(stk_ver)
 							ret_ += "\n╠ STICKER URL : line://shop/detail/{}".format(pkg_id)
-							ret_ += "\n╚══[ Finish ]"
+							ret_ += "\n╚▬▬▬[ Finish ]"
 							client.sendMessage(to, str(ret_))
 					elif msg.contentType == 13:
 						if settings["checkContact"] == True:
 							try:
 								contact = client.getContact(msg.contentMetadata["mid"])
 								cover = client.getProfileCoverURL(msg.contentMetadata["mid"])
-								ret_ = "╔══[ Details Contact ]"
+								ret_ = "╔▬▬▬[ Details Contact ]"
 								ret_ += "\n╠ Nama : {}".format(str(contact.displayName))
 								ret_ += "\n╠ MID : {}".format(str(msg.contentMetadata["mid"]))
 								ret_ += "\n╠ Bio : {}".format(str(contact.statusMessage))
 								ret_ += "\n╠ Gambar Profile : http://dl.profile.line-cdn.net/{}".format(str(contact.pictureStatus))
 								ret_ += "\n╠ Gambar Cover : {}".format(str(cover))
-								ret_ += "\n╚══[ Finish ]"
+								ret_ += "\n╚▬▬▬[ Finish ]"
 								client.sendImageWithURL(to, "http://dl.profile.line-cdn.net/{}".format(str(contact.pictureStatus)))
 								client.sendMessage(to, str(ret_))
 							except:
@@ -1573,7 +1573,7 @@ def clientBot(op):
 					elif msg.contentType == 16:
 						if settings["checkPost"] == True:
 							try:
-								ret_ = "╔══[ Details Post ]"
+								ret_ = "╔▬▬▬ Details Post"
 								if msg.contentMetadata["serviceType"] == "GB":
 									contact = client.getContact(sender)
 									auth = "\n╠ Penulis : {}".format(str(contact.displayName))
@@ -1604,7 +1604,7 @@ def clientBot(op):
 								if "text" in msg.contentMetadata:
 									text = "\n╠ Tulisan : {}".format(str(msg.contentMetadata["text"]))
 									ret_ += text
-								ret_ += "\n╚══[ Finish ]"
+								ret_ += "\n╚▬▬▬ Finish"
 								client.sendMessage(to, str(ret_))
 							except:
 								client.sendMessage(to, "Post tidak valid")
@@ -1701,12 +1701,12 @@ def clientBot(op):
 							try:
 								sendTime = unsendTime - unsend[sender]["time"]
 								sendTime = timeChange(sendTime)
-								ret_ = "╔══[ Ciduk Unsend ]"
+								ret_ = "╔▬▬▬ Ciduk Unsend"
 								ret_ += "\n╠ Orangnya : @!"
 								ret_ += "\n╠ Time : {} yang lalu".format(sendTime)
 								ret_ += "\n╠ Type : Text"
 								ret_ += "\n╠ Kata : {}".format(unsend[sender]["text"])
-								ret_ += "\n╚══[ Finish ]"
+								ret_ += "\n╚▬▬▬ Finish"
 								client.sendMention(to, ret_, [contact.mid])
 								del unsend[sender]
 							except:
@@ -1715,12 +1715,12 @@ def clientBot(op):
 							try:
 								sendTime = unsendTime - unsend[sender]["time"]
 								sendTime = timeChange(sendTime)
-								ret_ = "╔══[ Unsend Message ]"
+								ret_ = "╔▬▬▬ Unsend Message"
 								ret_ += "\n╠ Orangnya : @!"
 								ret_ += "\n╠ Time : {} yang lalu".format(sendTime)
 								ret_ += "\n╠ Type : Image"
 								ret_ += "\n╠ Text : None"
-								ret_ += "\n╚══[ Finish ]"
+								ret_ += "\n╚▬▬▬ Finish"
 								client.sendMention(to, ret_, [contact.mid])
 								client.sendImage(to, unsend[sender]["image"])
 								client.deleteFile(unsend[sender]["image"])
