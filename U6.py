@@ -13,13 +13,13 @@ from googletrans import Translator
 # Asalkan Rapih Dan Respon
 # jika ingin login Via qr Ganti Saja
 # Atau Login Via Email
-# Jangan Lupa Add Creator 
-# id Line ( unk87 )
+# Jangan Lupa Add Me 
+# id Line ( @wbp9844b )
 #==============================================================================#
 botStart = time.time()
 
 unk = LINE()
-#unk = LINE("token kamu")
+#unk = LINE("Ev49wbWDciJuzQi8UG6e.mDIRQD+WthuKlYOGL7ITRG.pAFPZhYHHPSFjqOGUkKn9dqHCER/ZNDUDgOBpLrWJe4=")   #PH-13
 #unk = LINE("Email","Password")
 unk.log("Auth Token : " + str(unk.authToken))
 channelToken = unk.getChannelResult()
@@ -62,9 +62,9 @@ ki2MID = ki2.profile.mid
 ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 Bots = [unkMID,aisMID,ki2MID,ki3MID,ki4MID]
-creator = ["ube187443474747c3ec352e7efeb48c1b"]
-Owner = ["ube187443474747c3ec352e7efeb48c1b"]
-admin = ["ube187443474747c3ec352e7efeb48c1b"]
+creator = ["u31d8aba9dff04c75242f2a2097b8adae"]
+Owner = ["u9f478c580a9c4e1de5e407e9b10c2da1"]
+admin = ["u9f478c580a9c4e1de5e407e9b10c2da1"]
 
 unkProfile = unk.getProfile()
 aisProfile = ais.getProfile()
