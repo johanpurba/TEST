@@ -33,10 +33,10 @@ $ python3 [U1-U2-U3-U4-U5-U6].py
 for the first time running python [U1-U2-U3-U4-U5-U6].py will be an error
 
 ## LINE
-[On Square](https://line.me/ti/g2/LPYXUX4YE)
+[OA Square](https://line.me/ti/p/~qqo7303u)
 
 ## Discord
-[TEST](https://discord.gg/5jsqutF)
+[PH-13](https://discord.gg/5jsqutF)
 
 ## Thanks For Author linepy
 Fadhiil Rachman / [@fadhiilrachman]
