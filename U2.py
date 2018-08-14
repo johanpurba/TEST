@@ -711,22 +711,22 @@ def clientBot(op):
                             cmd = command(text)
                             if cmd == "help":
                                 helpMessage = helpmessage()
-                                client.sendMessage(to, str(helpMessage), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
+                                client.sendMessage(to, str(helpMessage), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
                             if cmd == "self":
                                 helpMessage1 = helpmessage1()
-                                client.sendMessage(to, str(helpMessage1), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
+                                client.sendMessage(to, str(helpMessage1), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
                             if cmd == "group":
                                 helpMessage2 = helpmessage2()
-                                client.sendMessage(to, str(helpMessage2), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
+                                client.sendMessage(to, str(helpMessage2), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
                             if cmd == "special":
                                 helpMessage3 = helpmessage3()
-                                client.sendMessage(to, str(helpMessage3), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
+                                client.sendMessage(to, str(helpMessage3), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
                             if cmd == "media":
                                 helpMessage4 = helpmessage4()
-                                client.sendMessage(to, str(helpMessage4), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
+                                client.sendMessage(to, str(helpMessage4), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
                             if cmd == "settings":
                                 helpMessage5 = helpmessage5()
-                                client.sendMessage(to, str(helpMessage5), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'Creator', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
+                                client.sendMessage(to, str(helpMessage5), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™', 'AGENT_LINK': 'https://bit.ly/2J3ywc3'})
                             elif cmd == "tts":
                                 helpTextToSpeech = helptexttospeech()
                                 client.sendMessage(to, str(helpTextToSpeech))
