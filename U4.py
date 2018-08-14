@@ -869,7 +869,7 @@ def clientBot(op):
                             ret_ += "\nHow to use ?"
                             ret_ += "\nUse command :\n{}tr *lang* *text*".format(setKey)
                             ret_ += "\n\nExample :"
-                            ret_ += "\n{}tr id rifky cool".format(setKey)
+                            ret_ += "\n{}tr id kamu tolol".format(setKey)
                             ret_ += "\n\nHow to find language?"
                             ret_ += "\nUse command :\n{}tr language".format(setKey)
                             client.sendMessage(msg.to,str(ret_))
@@ -878,7 +878,7 @@ def clientBot(op):
                             ret_ += "\nHow to use ?"
                             ret_ += "\nUse command :\n{}say *lang* *text*".format(setKey)
                             ret_ += "\n\nExample :"
-                            ret_ += "\n{}say id rifky ganteng".format(setKey)
+                            ret_ += "\n{}say id kamu goblok".format(setKey)
                             ret_ += "\n\nHow to find language?"
                             ret_ += "\nUse command :\n{}say language".format(setKey)
                             client.sendMessage(msg.to,str(ret_))
@@ -887,7 +887,7 @@ def clientBot(op):
                             ret_ += "\nHow to use ?"
                             ret_ += "\nUse command :\n{}creatememe *text*|*text*|*template*".format(setKey)
                             ret_ += "\n\nExample :"
-                            ret_ += "\n{}creatememe rifky|ganteng|buzz".format(setKey)
+                            ret_ += "\n{}creatememe kamu|goblok|buzz".format(setKey)
                             ret_ += "\n\nHow to find template?"
                             ret_ += "\nUse command :\n{}template memegen".format(setKey)
                             client.sendMessage(msg.to, str(ret_))
