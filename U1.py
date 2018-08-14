@@ -658,7 +658,7 @@ def clientBot(op):
 							client.sendFooter(to, helpTranslate, icon, name, link)
 						if cmd == "creator":
 							client.sendMessage(to,"Contact Dibawah Ini \nAdalah Yang Punya Bot")
-							client.sendContact(to,"ube187443474747c3ec352e7efeb48c1b")
+							client.sendContact(to,"u31d8aba9dff04c75242f2a2097b8adae")
 						elif cmd == 'about':
 							try:
 							    arr = []
