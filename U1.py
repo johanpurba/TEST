@@ -686,29 +686,29 @@ def clientBot(op):
 						elif cmd == "status":
 							try:
 								ret_ = "╔▬▬▬ Status"
-								if settings["autoAdd"] == True: ret_ += "\n╠ Auto Add : ON"
-								else: ret_ += "\n╠ Auto Add : OFF"
-								if settings["autoJoin"] == True: ret_ += "\n╠ Auto Join : ON"
-								else: ret_ += "\n╠ Auto Join : OFF"
-								if settings["autoJoin"] == True: ret_ += "\n╠ Auto Join Ticket : ON"
-								else: ret_ += "\n╠ Auto Join Ticket : OFF"
-								if settings["autoRead"] == True: ret_ += "\n╠ Auto Read : ON"
-								else: ret_ += "\n╠ Auto Read : OFF"
-								if settings["autoRespon"] == True: ret_ += "\n╠ Auto Respon : ON"
-								else: ret_ += "\n╠ Auto Respon : OFF"
-								if settings["checkContact"] == True: ret_ += "\n╠ Check Contact : ON"
-								else: ret_ += "\n╠ Check Contact : OFF"
-								if settings["checkPost"] == True: ret_ += "\n╠ Check Post : ON"
-								else: ret_ += "\n╠ Check Post : OFF"
-								if settings["checkSticker"] == True: ret_ += "\n╠ Check Sticker : ON"
-								else: ret_ += "\n╠ Check Sticker : OFF"
-								if settings["detectUnsend"] == True: ret_ += "\n╠ Detect Unsend : ON"
-								else: ret_ += "\n╠ Detect Unsend : OFF"
-								if settings["setKey"] == True: ret_ += "\n╠ Set Key : ON"
-								else: ret_ += "\n╠ Set Key : OFF"
-								ret_ +="\n╠ Add Message : {}".format(settings["autoAddMessage"])
-								ret_ +="\n╠ Join Message : {}".format(settings["autoJoinMessage"])
-								ret_ +="\n╠ Respon Message : {}".format(settings["autoResponMessage"])
+								if settings["autoAdd"] == True: ret_ += "\n╠🔘 Auto Add : ON"
+								else: ret_ += "\n╠⭕ Auto Add : OFF"
+								if settings["autoJoin"] == True: ret_ += "\n╠🔘 Auto Join : ON"
+								else: ret_ += "\n╠⭕ Auto Join : OFF"
+								if settings["autoJoin"] == True: ret_ += "\n╠🔘 Auto Join Ticket : ON"
+								else: ret_ += "\n╠⭕ Auto Join Ticket : OFF"
+								if settings["autoRead"] == True: ret_ += "\n╠🔘 Auto Read : ON"
+								else: ret_ += "\n╠⭕ Auto Read : OFF"
+								if settings["autoRespon"] == True: ret_ += "\n╠🔘 Auto Respon : ON"
+								else: ret_ += "\n╠⭕ Auto Respon : OFF"
+								if settings["checkContact"] == True: ret_ += "\n╠🔘 Check Contact : ON"
+								else: ret_ += "\n╠⭕ Check Contact : OFF"
+								if settings["checkPost"] == True: ret_ += "\n╠🔘 Check Post : ON"
+								else: ret_ += "\n╠⭕ Check Post : OFF"
+								if settings["checkSticker"] == True: ret_ += "\n╠🔘 Check Sticker : ON"
+								else: ret_ += "\n╠⭕ Check Sticker : OFF"
+								if settings["detectUnsend"] == True: ret_ += "\n╠🔘 Detect Unsend : ON"
+								else: ret_ += "\n╠⭕ Detect Unsend : OFF"
+								if settings["setKey"] == True: ret_ += "\n╠🔘 Set Key : ON"
+								else: ret_ += "\n╠⭕ Set Key : OFF"
+								ret_ +="\n╠▬ Add Message : {}".format(settings["autoAddMessage"])
+								ret_ +="\n╠▬ Join Message : {}".format(settings["autoJoinMessage"])
+								ret_ +="\n╠▬ Respon Message : {}".format(settings["autoResponMessage"])
 								ret_ += "\n╚▬▬▬ Status"
 								client.sendMessage(to, str(ret_))
 							except Exception as error:
