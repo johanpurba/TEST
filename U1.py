@@ -185,6 +185,7 @@ def menuHelp():
 		key = ''
 	menuHelp =	"[ Help Message ]" + "\n" + \
 				"🐿 " + key + "Self" + "\n" + \
+				"🐿 " + key + "MyBot" + "\n" + \
 				"🐿 " + key + "Group" + "\n" + \
 				"🐿 " + key + "Special" + "\n" + \
 				"🐿 " + key + "Media" + "\n" + \
