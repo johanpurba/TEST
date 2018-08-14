@@ -56,7 +56,7 @@ def restartBot():
 
 def logError(text):
     client.log("[ ERROR ] {}".format(str(text)))
-    tz = pytz.timezone("Asia/Makassar")
+    tz = pytz.timezone("Asia/Jakarta")
     timeNow = datetime.now(tz=tz)
     timeHours = datetime.strftime(timeNow,"(%H:%M)")
     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -1192,7 +1192,7 @@ def clientBot(op):
 								ret_ += "\n╚▬▬▬ Total {} Pendosa]".format(str(len(dataMid)))
 								client.sendMention(to, ret_, dataMid)
 						elif cmd == "lurking on":
-							tz = pytz.timezone("Asia/Makassar")
+							tz = pytz.timezone("Asia/Jakarta")
 							timeNow = datetime.now(tz=tz)
 							day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
 							hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
@@ -1223,7 +1223,7 @@ def clientBot(op):
 								read['readMember'][to] = []
 								client.sendMessage(to, "Set reading point : \n{}".format(readTime))
 						elif cmd == "lurking off":
-							tz = pytz.timezone("Asia/Makassar")
+							tz = pytz.timezone("Asia/Jakarta")
 							timeNow = datetime.now(tz=tz)
 							day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
 							hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
