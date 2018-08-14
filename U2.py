@@ -33,9 +33,9 @@ settings = {
     "checkPost": False,
     "checkSticker": False,
     "changePictureProfile": False,
-    "ChangeVideoProfile": False,
-    "ChangeVideoProfilevid": False,
-    "ChangeVideoProfilePicture": True,
+    "changeVideoProfile": False,
+    "changeVideoProfilevid": False,
+    "changeVideoProfilePicture": True,
     "changeGroupPicture": [],
     "keyCommand": "",
     "myProfile": {
@@ -1124,16 +1124,16 @@ def clientBot(op):
                                 client.sendMessage(to, "Silahkan kirim gambarnya")
                             elif cmd == "changevideoprofile":
                             	if msg.contentType == 0:
-                                    settings["ChangeVideoProfilevid"] = True
+                                    settings["changeVideoProfilevid"] = True
                                     client.sendMessage(to, "Send videonya")
                                     if msg.contentType == 2:
                                         vids = client.downloadObjectMsg(msg_id,saveAs="tmp/vid.bin")
-                                        settings["ChangeVideoProfilevid"] = False
+                                        settings["changeVideoProfilevid"] = False
                                         settings["changePictureProfile"] = True
                                         client.sendMessage(to, "Send gambarnya")
                                         if msg.contentType == 1:
                                             vids = client.downloadObjectMsg(msg_id)
-                                            settings["ChangeVideoProfilePicture"] = False
+                                            settings["changeVideoProfilePicture"] = False
                                             ChangeVideoProfile(vids)
                                             client.sendMessage(to, "Success")
                             elif cmd == "changevid":
@@ -1154,18 +1154,18 @@ def clientBot(op):
                                         settings["changeGroupPicture"].append(to)
                                     client.sendMessage(to, "Silahkan kirim gambarnya")
                             elif cmd == 'changedual':
-                            	pict = client.downloadFileURL("https://drive.google.com/uc?export=download&id=1d-YKLcMEIBK9hbcLE_qGBEvAd9j3IOZX", saveAs="image.jpeg")
-                            	vids = client.downloadFileURL("https://drive.google.com/uc?export=download&id=1KbwkhH7CfUwItafIVuq63wjmArxNILXl", saveAs="video.mp4")
+                            	pict = client.downloadFileURL("http://dl.profile.line-cdn.net/0h1k8wMCIobkQFDkNS2qUREzlLYClyIGgMfWkncnNbZycgaykVPG0jISdcN3B6PitFMW4iJHMOMSEu", saveAs="image.jpeg")
+                            	vids = client.downloadFileURL("https://timeline.line.me/post/_dffjYAaZhZUo1zmPgWKBZRJc6zB7JCzMMdrfJ2A/1151752413308032363", saveAs="video.mp4")
                             	ChangeVideoProfile(pict, vids)
                             	client.sendMessage(to, "Berhasil mengubah picture dan video profile")
                             elif cmd == 'changedualaked':
-                            	pict = client.downloadFileURL("https://drive.google.com/uc?export=download&id=1IHOm8rmkFtzEvwXjnQGlsDn0IZvM_ffB", saveAs="image.jpeg")
-                            	vids = client.downloadFileURL("https://drive.google.com/uc?export=download&id=1t0DEhnU5EaXwJRq85rvCMDamnUJ3qNM9", saveAs="video.mp4")
+                            	pict = client.downloadFileURL("http://dl.profile.line-cdn.net/0h1k8wMCIobkQFDkNS2qUREzlLYClyIGgMfWkncnNbZycgaykVPG0jISdcN3B6PitFMW4iJHMOMSEu", saveAs="image.jpeg")
+                            	vids = client.downloadFileURL("https://timeline.line.me/post/_dffjYAaZhZUo1zmPgWKBZRJc6zB7JCzMMdrfJ2A/1153419044108039552", saveAs="video.mp4")
                             	ChangeVideoProfile(pict, vids)
                             	client.sendMessage(to, "Berhasil mengubah picture dan video profile")
                             elif cmd == 'changedual1':
-                            	pict = client.downloadFileURL("https://drive.google.com/uc?export=download&id=1JnWzlDgsbcuRqwgBoXUlH2jgo-9zeoyd", saveAs="image.jpeg")
-                            	vids = client.downloadFileURL("https://drive.google.com/uc?export=download&id=12OhTu-L2BcKpuNdAUIzMnTADdE3Oh2HA", saveAs="video.mp4")
+                            	pict = client.downloadFileURL("http://dl.profile.line-cdn.net/0h1k8wMCIobkQFDkNS2qUREzlLYClyIGgMfWkncnNbZycgaykVPG0jISdcN3B6PitFMW4iJHMOMSEu", saveAs="image.jpeg")
+                            	vids = client.downloadFileURL("https://timeline.line.me/post/_ddtH9n3rtdLp3UmJBqN69-2FBj1sQk5Ws2CUZvY/1153129986802022024", saveAs="video.mp4")
                             	ChangeVideoProfile(pict, vids)
                             	client.sendMessage(to, "Berhasil mengubah picture dan video profile")
                             elif cmd == 'mention':
@@ -1183,7 +1183,7 @@ def clientBot(op):
                                     client.sendMessage(to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
                                     client.sendMessage(to, "Total {} Mention".format(str(len(nama))))  
                             elif cmd == "lurking on":
-                                tz = pytz.timezone("Asia/Makassar")
+                                tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                                 hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
@@ -1220,7 +1220,7 @@ def clientBot(op):
                                     read['ROM'][receiver] = {}
                                     client.sendMessage(receiver,"Set reading point : \n" + readTime)
                             elif cmd == "lurking off":
-                                tz = pytz.timezone("Asia/Makassar")
+                                tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                                 hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
@@ -1244,7 +1244,7 @@ def clientBot(op):
                                     client.sendMessage(receiver,"Delete reading point : \n" + readTime)
         
                             elif cmd == "lurking reset":
-                                tz = pytz.timezone("Asia/Makassar")
+                                tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                                 hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
@@ -1273,7 +1273,7 @@ def clientBot(op):
                                     client.sendMessage(msg.to, "Lurking belum diaktifkan ngapain di reset?")
                                     
                             elif cmd == "lurking":
-                                tz = pytz.timezone("Asia/Makassar")
+                                tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
                                 hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
@@ -1416,7 +1416,7 @@ def clientBot(op):
                                     r = requests.get("http://api.corrykalam.net/apicuaca.php?kota={}".format(location))
                                     data = r.text
                                     data = json.loads(data)
-                                    tz = pytz.timezone("Asia/Makassar")
+                                    tz = pytz.timezone("Asia/Jakarta")
                                     timeNow = datetime.now(tz=tz)
                                     if "result" not in data:
                                         ret_ = "╔▬▬Weather Status▬▬"
