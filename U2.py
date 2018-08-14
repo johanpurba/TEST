@@ -33,9 +33,9 @@ settings = {
     "checkPost": False,
     "checkSticker": False,
     "changePictureProfile": False,
-    "changeVideoProfile": False,
-    "changeVideoProfilevid": False,
-    "changeVideoProfilePicture": True,
+    "ChangeVideoProfile": False,
+    "ChangeVideoProfilevid": False,
+    "ChangeVideoProfilePicture": True,
     "changeGroupPicture": [],
     "keyCommand": "",
     "myProfile": {
@@ -1124,16 +1124,16 @@ def clientBot(op):
                                 client.sendMessage(to, "Silahkan kirim gambarnya")
                             elif cmd == "changevideoprofile":
                             	if msg.contentType == 0:
-                                    settings["changeVideoProfilevid"] = True
+                                    settings["ChangeVideoProfilevid"] = True
                                     client.sendMessage(to, "Send videonya")
                                     if msg.contentType == 2:
                                         vids = client.downloadObjectMsg(msg_id,saveAs="tmp/vid.bin")
-                                        settings["changeVideoProfilevid"] = False
+                                        settings["ChangeVideoProfilevid"] = False
                                         settings["changePictureProfile"] = True
                                         client.sendMessage(to, "Send gambarnya")
                                         if msg.contentType == 1:
                                             vids = client.downloadObjectMsg(msg_id)
-                                            settings["changeVideoProfilePicture"] = False
+                                            settings["ChangeVideoProfilePicture"] = False
                                             ChangeVideoProfile(vids)
                                             client.sendMessage(to, "Success")
                             elif cmd == "changevid":
