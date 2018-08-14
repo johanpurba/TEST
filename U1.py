@@ -394,7 +394,7 @@ def menuTextToSpeech():
 						"╠ " + key + "vi : Vietnamese" + "\n" + \
 						"╠ " + key + "cy : Welsh" + "\n" + \
 						"╚▬▬▬ Jangan Typo ]" + "\n" + "\n\n" + \
-						"Contoh : " + key + "say-id chiken"
+						"Contoh : " + key + "say-id honey"
 	return menuTextToSpeech
 
 def menuTranslate():
@@ -510,7 +510,7 @@ def menuTranslate():
 					"╠ " + key + "fil : Filipino" + "\n" + \
 					"╠ " + key + "he : Hebrew" + "\n" + \
 					"╚▬▬▬ Jangan Typo ]" + "\n" + "\n\n" + \
-					"Contoh : " + key + "tr-id chiken"
+					"Contoh : " + key + "tr-id darling"
 	return menuTranslate
 
 def clientBot(op):
