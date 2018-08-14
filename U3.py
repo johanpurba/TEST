@@ -390,242 +390,242 @@ def myhelp():
     key = settings["keyCommand"]
     key = key.title()
     if settings['setKey'] == False: key = ''
-    helpMessage = "???[ Help Message ]" + "\n" + \
-                  "? Use?" + key + "?for the Prefix" + "\n" + \
-                  "? " + key + "Myself" + "\n" + \
-                  "? " + key + "Settings" + "\n" + \
-                  "? " + key + "Media" + "\n" + \
-                  "? " + key + "Group" + "\n" + \
-                  "? " + key + "Memegen" + "\n" + \
-                  "? " + key + "Translate" + "\n" + \
-                  "? " + key + "TextSpeech" + "\n" + \
-                  "???[ Status Command ]" + "\n" + \
-                  "? " + key + "Speed" + "\n" + \
-                  "? " + key + "Status" + "\n" + \
-                  "? " + key + "About" + "\n" + \
-                  "? " + key + "Runtime" + "\n" + \
-                  "? " + key + "ErrorLog" + "\n" + \
-                  "? " + key + "ResetLogError" + "\n" + \
-                  "? " + key + "Restart" + "\n" + \
-                  "???[ Key Command ]" + "\n" + \
-                  "? " + key + "ChangeKey: ?new key?" + "\n" + \
-                  "? MyKey" + "\n" + \
-                  "? SetKey on/off" + "\n" + \
-                  "? Mute" + "\n" + \
-                  "? UnMute" + "\n" + \
-                  "? Logoutz" + "\n" + \
-                  "???[ Jangan Typo ]"
+    helpMessage = "▬▬▬Help Message▬▬▬" + "\n" + \
+                  "💫 Use" + key + "for the Prefix💫" + "\n" + \
+                  "⏳ " + key + "Myself" + "\n" + \
+                  "⏳ " + key + "Settings" + "\n" + \
+                  "⏳ " + key + "Media" + "\n" + \
+                  "⏳ " + key + "Group" + "\n" + \
+                  "⏳ " + key + "Memegen" + "\n" + \
+                  "⏳ " + key + "Translate" + "\n" + \
+                  "⏳ " + key + "TextSpeech" + "\n" + \
+                  "▬▬▬Status Command▬▬▬" + "\n" + \
+                  "⌛ " + key + "Speed" + "\n" + \
+                  "⌛ " + key + "Status" + "\n" + \
+                  "⌛ " + key + "About" + "\n" + \
+                  "⌛ " + key + "Runtime" + "\n" + \
+                  "⌛ " + key + "ErrorLog" + "\n" + \
+                  "⌛ " + key + "ResetLogError" + "\n" + \
+                  "⌛ " + key + "Restart" + "\n" + \
+                  "▬▬▬Key Command▬▬▬" + "\n" + \
+                  "💡 " + key + "ChangeKey: ?new key?" + "\n" + \
+                  "💡 MyKey" + "\n" + \
+                  "💡 SetKey on/off" + "\n" + \
+                  "💡 Mute" + "\n" + \
+                  "💡 UnMute" + "\n" + \
+                  "💡 Logoutz" + "\n" + \
+                  "▬▬▬Jangan Typo▬▬▬"
     return helpMessage
 
 def helpsettings():
     key = settings["keyCommand"]
     key = key.title()
     if settings['setKey'] == False: key = ''
-    helpSettings = "???[ Settings Command ]" + "\n" + \
-                  "? " + key + "AutoAdd on/off" + "\n" + \
-                  "? " + key + "AutoJoin on/off" + "\n" + \
-                  "? " + key + "AutoRead on/off" + "\n" + \
-                  "? " + key + "AutoReply on/off" + "\n" + \
-                  "? " + key + "AutoLeave on/off" + "\n" + \
-                  "? " + key + "AutoRestart on/off" + "\n" + \
-                  "? " + key + "AutoJoinTicket on/off" + "\n" + \
-                  "? " + key + "DetectMention on/off" + "\n" + \
-                  "? " + key + "CheckContact on/off" + "\n" + \
-                  "? " + key + "CheckPost on/off" + "\n" + \
-                  "? " + key + "CheckSticker on/off" + "\n" + \
-                  "? " + key + "ResponGroupCall on/off" + "\n" + \
-                  "? " + key + "LeaveMessage on/off" + "\n" + \
-                  "? " + key + "WelcomeMessage on/off" + "\n" + \
-                  "? " + key + "GetReader on/off" + "\n" + \
-                  "???[ Message Set Command ]" + "\n" + \
-                  "? " + key + "AutoAdd" + "\n" + \
-                  "? " + key + "AutoAddSticker" + "\n" + \
-                  "? " + key + "DelAutoAddSticker" + "\n" + \
-                  "? " + key + "SetAutoAdd: ?text?" + "\n" + \
-                  "? " + key + "AutoReply" + "\n" + \
-                  "? " + key + "AutoReplySticker" + "\n" + \
-                  "? " + key + "DelAutoReplySticker" + "\n" + \
-                  "? " + key + "SetAutoReply: ?text?" + "\n" + \
-                  "? " + key + "DetectMention" + "\n" + \
-                  "? " + key + "DetectMentionSticker" + "\n" + \
-                  "? " + key + "DelDetectMentionSticker" + "\n" + \
-                  "? " + key + "SetDetectMention: ?text?" + "\n" + \
-                  "? " + key + "LeaveMessage" + "\n" + \
-                  "? " + key + "LeaveSticker" + "\n" + \
-                  "? " + key + "DelLeaveSticker" + "\n" + \
-                  "? " + key + "SetLeaveMessage: ?text?" + "\n" + \
-                  "? " + key + "WelcomeMessage" + "\n" + \
-                  "? " + key + "WelcomeSticker" + "\n" + \
-                  "? " + key + "DelWelcomeSticker" + "\n" + \
-                  "? " + key + "SetWelcomeMessage: ?text?" + "\n" + \
-                  "? " + key + "GetReader" + "\n" + \
-                  "? " + key + "GetReaderSticker" + "\n" + \
-                  "? " + key + "DelGetReaderSticker" + "\n" + \
-                  "? " + key + "SetGetReaderMessage: ?text?" + "\n" + \
-                  "???[ Jangan Typo ]"
+    helpSettings = "▬▬▬Settings Command▬▬▬" + "\n" + \
+                  "🏵 " + key + "AutoAdd on/off" + "\n" + \
+                  "🏵 " + key + "AutoJoin on/off" + "\n" + \
+                  "🏵 " + key + "AutoRead on/off" + "\n" + \
+                  "🏵 " + key + "AutoReply on/off" + "\n" + \
+                  "🏵 " + key + "AutoLeave on/off" + "\n" + \
+                  "🏵 " + key + "AutoRestart on/off" + "\n" + \
+                  "🏵 " + key + "AutoJoinTicket on/off" + "\n" + \
+                  "🏵 " + key + "DetectMention on/off" + "\n" + \
+                  "🏵 " + key + "CheckContact on/off" + "\n" + \
+                  "🏵 " + key + "CheckPost on/off" + "\n" + \
+                  "🏵 " + key + "CheckSticker on/off" + "\n" + \
+                  "🏵 " + key + "ResponGroupCall on/off" + "\n" + \
+                  "🏵 " + key + "LeaveMessage on/off" + "\n" + \
+                  "🏵 " + key + "WelcomeMessage on/off" + "\n" + \
+                  "🏵 " + key + "GetReader on/off" + "\n" + \
+                  "▬▬▬Message Set Command▬▬▬" + "\n" + \
+                  "🚨 " + key + "AutoAdd" + "\n" + \
+                  "🚨 " + key + "AutoAddSticker" + "\n" + \
+                  "🚨 " + key + "DelAutoAddSticker" + "\n" + \
+                  "🚨 " + key + "SetAutoAdd: ?text?" + "\n" + \
+                  "🚨 " + key + "AutoReply" + "\n" + \
+                  "🚨 " + key + "AutoReplySticker" + "\n" + \
+                  "🚨 " + key + "DelAutoReplySticker" + "\n" + \
+                  "🚨 " + key + "SetAutoReply: ?text?" + "\n" + \
+                  "🚨 " + key + "DetectMention" + "\n" + \
+                  "🚨 " + key + "DetectMentionSticker" + "\n" + \
+                  "🚨 " + key + "DelDetectMentionSticker" + "\n" + \
+                  "🚨 " + key + "SetDetectMention: ?text?" + "\n" + \
+                  "🚨 " + key + "LeaveMessage" + "\n" + \
+                  "🚨 " + key + "LeaveSticker" + "\n" + \
+                  "🚨 " + key + "DelLeaveSticker" + "\n" + \
+                  "🚨 " + key + "SetLeaveMessage: ?text?" + "\n" + \
+                  "🚨 " + key + "WelcomeMessage" + "\n" + \
+                  "🚨 " + key + "WelcomeSticker" + "\n" + \
+                  "🚨 " + key + "DelWelcomeSticker" + "\n" + \
+                  "🚨 " + key + "SetWelcomeMessage: ?text?" + "\n" + \
+                  "🚨 " + key + "GetReader" + "\n" + \
+                  "🚨 " + key + "GetReaderSticker" + "\n" + \
+                  "🚨 " + key + "DelGetReaderSticker" + "\n" + \
+                  "🚨 " + key + "SetGetReaderMessage: ?text?" + "\n" + \
+                  "▬▬▬Jangan Typo▬▬▬"
     return helpSettings
 
 def myself():
     key = settings["keyCommand"]
     key = key.title()
     if settings['setKey'] == False: key = ''
-    mySelf =      "???[ MySelf Command ]" + "\n" + \
-                  "? " + key + "Me" + "\n" + \
-                  "? " + key + "Gift" + "\n" + \
-                  "? " + key + "ChangeName: ?text?" + "\n" + \
-                  "? " + key + "ChangeBio: ?text?" + "\n" + \
-                  "? " + key + "MyProfile" + "\n" + \
-                  "? " + key + "MyMid" + "\n" + \
-                  "? " + key + "MyName" + "\n" + \
-                  "? " + key + "MyBio" + "\n" + \
-                  "? " + key + "MyPicture" + "\n" + \
-                  "? " + key + "MyVideo" + "\n" + \
-                  "? " + key + "MyCover" + "\n" + \
-                  "? " + key + "GetMid ?mention?" + "\n" + \
-                  "? " + key + "GetProfile ?mention?" + "\n" + \
-                  "? " + key + "GetName ?mention?" + "\n" + \
-                  "? " + key + "GetBio ?mention?" + "\n" + \
-                  "? " + key + "GetPicture ?mention?" + "\n" + \
-                  "? " + key + "GetVideo ?mention?" + "\n" + \
-                  "? " + key + "GetCover ?mention?" + "\n" + \
-                  "? " + key + "GetContact ?mention?" + "\n" + \
-                  "? " + key + "CloneProfile ?mention?" + "\n" + \
-                  "? " + key + "MidGetContact ?mid?" + "\n" + \
-                  "? " + key + "MidClone ?mid?" + "\n" + \
-                  "? " + key + "RestoreProfile" + "\n" + \
-                  "? " + key + "BackupProfile" + "\n" + \
-                  "???[ Mimic Command ]" + "\n" + \
-                  "? " + key + "Mimic on/off" + "\n" + \
-                  "? " + key + "MimicList" + "\n" + \
-                  "? " + key + "MimicAdd ?mention?" + "\n" + \
-                  "? " + key + "MimicDel ?mention?" + "\n" + \
-                  "???[ Spesial Self Special Command ]" + "\n" + \
-                  "? " + key + "AddImage ?name?" + "\n" + \
-                  "? " + key + "ChangeImage ?name?" + "\n" + \
-                  "? " + key + "DelImage ?name?" + "\n" + \
-                  "? " + key + "SendImage ?number? ?name?" + "\n" + \
-                  "? " + key + "ListImage" + "\n" + \
-                  "? " + key + "AddSticker ?name?" + "\n" + \
-                  "? " + key + "ChangeSticker ?name?" + "\n" + \
-                  "? " + key + "DelSticker ?name?" + "\n" + \
-                  "? " + key + "SendSticker ?number? ?name?" + "\n" + \
-                  "? " + key + "ListSticker" + "\n" + \
-                  "???[ Spesial Self Command ]" + "\n" + \
-                  "? " + key + "Leave" + "\n" + \
-                  "? " + key + "Siapa Yang Tag" + "\n" + \
-                  "? " + key + "RemoveAllChat" + "\n" + \
-                  "? " + key + "ChangeProfilePicture" + "\n" + \
-                  "? " + key + "ChangeGroupPicture" + "\n" + \
-                  "? " + key + "ChangeVideoProfile" + "\n" + \
-                  "? " + key + "Abort" + "\n" + \
-                  "? " + key + "CreateAnnounce ?text?|?link?" + "\n" + \
-                  "? " + key + "Abroadcast ?text?|?link?" + "\n" + \
-                  "? " + key + "Gbroadcast ?text?" + "\n" + \
-                  "? " + key + "Fbroadcast ?text?" + "\n" + \
-                  "? " + key + "AllBroadcast ?text?" + "\n" + \
-                  "? " + key + "SpamTag ?number? ?mention?" + "\n" + \
-                  "? " + key + "Spam ?number? ?on/off? ?text?" + "\n" + \
-                  "???[ Kicker Command ]" + "\n" + \
-                  "? " + key + "Crash" + "\n" + \
-                  "? " + key + "Kick ?mention?" + "\n" + \
-                  "???[ Jangan Typo ]"
+    mySelf =      "▬▬▬MySelf Command▬▬▬" + "\n" + \
+                  "💌 " + key + "Me" + "\n" + \
+                  "💌 " + key + "Gift" + "\n" + \
+                  "💌 " + key + "ChangeName: ?text?" + "\n" + \
+                  "💌 " + key + "ChangeBio: ?text?" + "\n" + \
+                  "💌 " + key + "MyProfile" + "\n" + \
+                  "💌 " + key + "MyMid" + "\n" + \
+                  "💌 " + key + "MyName" + "\n" + \
+                  "💌 " + key + "MyBio" + "\n" + \
+                  "💌 " + key + "MyPicture" + "\n" + \
+                  "💌 " + key + "MyVideo" + "\n" + \
+                  "💌 " + key + "MyCover" + "\n" + \
+                  "💌 " + key + "GetMid ?mention?" + "\n" + \
+                  "💌 " + key + "GetProfile ?mention?" + "\n" + \
+                  "💌 " + key + "GetName ?mention?" + "\n" + \
+                  "💌 " + key + "GetBio ?mention?" + "\n" + \
+                  "💌 " + key + "GetPicture ?mention?" + "\n" + \
+                  "💌 " + key + "GetVideo ?mention?" + "\n" + \
+                  "💌 " + key + "GetCover ?mention?" + "\n" + \
+                  "💌 " + key + "GetContact ?mention?" + "\n" + \
+                  "💌 " + key + "CloneProfile ?mention?" + "\n" + \
+                  "💌 " + key + "MidGetContact ?mid?" + "\n" + \
+                  "💌 " + key + "MidClone ?mid?" + "\n" + \
+                  "💌 " + key + "RestoreProfile" + "\n" + \
+                  "💌 " + key + "BackupProfile" + "\n" + \
+                  "▬▬▬Mimic Command▬▬▬" + "\n" + \
+                  "🔖 " + key + "Mimic on/off" + "\n" + \
+                  "🔖 " + key + "MimicList" + "\n" + \
+                  "🔖 " + key + "MimicAdd ?mention?" + "\n" + \
+                  "🔖 " + key + "MimicDel ?mention?" + "\n" + \
+                  "▬▬▬Special Self Command▬▬▬" + "\n" + \
+                  "🗝 " + key + "AddImage ?name?" + "\n" + \
+                  "🗝 " + key + "ChangeImage ?name?" + "\n" + \
+                  "🗝 " + key + "DelImage ?name?" + "\n" + \
+                  "🗝 " + key + "SendImage ?number? ?name?" + "\n" + \
+                  "🗝 " + key + "ListImage" + "\n" + \
+                  "🗝 " + key + "AddSticker ?name?" + "\n" + \
+                  "🗝 " + key + "ChangeSticker ?name?" + "\n" + \
+                  "🗝 " + key + "DelSticker ?name?" + "\n" + \
+                  "🗝 " + key + "SendSticker ?number? ?name?" + "\n" + \
+                  "🗝 " + key + "ListSticker" + "\n" + \
+                  "▬▬▬Spesial Self Command▬▬▬" + "\n" + \
+                  "🏮 " + key + "Leave" + "\n" + \
+                  "🏮 " + key + "Siapa Yang Tag" + "\n" + \
+                  "🏮 " + key + "RemoveAllChat" + "\n" + \
+                  "🏮 " + key + "ChangeProfilePicture" + "\n" + \
+                  "🏮 " + key + "ChangeGroupPicture" + "\n" + \
+                  "🏮 " + key + "ChangeVideoProfile" + "\n" + \
+                  "🏮 " + key + "Abort" + "\n" + \
+                  "🏮 " + key + "CreateAnnounce ?text?|?link?" + "\n" + \
+                  "🏮 " + key + "Abroadcast ?text?|?link?" + "\n" + \
+                  "🏮 " + key + "Gbroadcast ?text?" + "\n" + \
+                  "🏮 " + key + "Fbroadcast ?text?" + "\n" + \
+                  "🏮 " + key + "AllBroadcast ?text?" + "\n" + \
+                  "🏮 " + key + "SpamTag ?number? ?mention?" + "\n" + \
+                  "🏮 " + key + "Spam ?number? ?on/off? ?text?" + "\n" + \
+                  "▬▬▬Kicker Command▬▬▬" + "\n" + \
+                  "🔏 " + key + "Crash" + "\n" + \
+                  "🔏 " + key + "Kick ?mention?" + "\n" + \
+                  "▬▬▬Jangan Typo▬▬▬"
     return mySelf
 
 def mymedia():
     key = settings["keyCommand"]
     key = key.title()
     if settings['setKey'] == False: key = ''
-    myMedia =     "???[ Media Command ]" + "\n" + \
-                  "? " + key + "1cak" + "\n" + \
-                  "? " + key + "Kalender" + "\n" + \
-                  "? " + key + "Quotes" + "\n" + \
-                  "? " + key + "TopNews" + "\n" + \
-                  "? " + key + "Asking ?query?" + "\n" + \
-                  "? " + key + "Anime ?query?" + "\n" + \
-                  "? " + key + "IdLine ?userid?" + "\n" + \
-                  "? " + key + "Quran ?search?" + "\n" + \
-                  "? " + key + "Wikipedia ?search?" + "\n" + \
-                  "? " + key + "Lyric ?song?" + "\n" + \
-                  "? " + key + "Music ?song?" + "\n" + \
-                  "? " + key + "MusicSearch ?search?" + "\n" + \
-                  "? " + key + "ImageSearch ?search?" + "\n" + \
-                  "? " + key + "YoutubeSearch ?search?" + "\n" + \
-                  "? " + key + "YoutubeMp3 ?link?" + "\n" + \
-                  "? " + key + "YoutubeMp4 ?link?" + "\n" + \
-                  "? " + key + "YoutubeDownload ?link?" + "\n" + \
-                  "? " + key + "YoutubeInfo ?link?" + "\n" + \
-                  "? " + key + "GithubProfile ?username?" + "\n" + \
-                  "? " + key + "ProfileIg ?username?" + "\n" + \
-                  "? " + key + "PostIg ?username?" + "\n" + \
-                  "? " + key + "StoryIg ?username?" + "\n" + \
-                  "? " + key + "PictureIg ?link?" + "\n" + \
-                  "? " + key + "VideoIg ?link?" + "\n" + \
-                  "? " + key + "CheckIp ?ip?" + "\n" + \
-                  "? " + key + "CheckDate ?date of birth?" + "\n" + \
-                  "? " + key + "CheckTimezone ?location?" + "\n" + \
-                  "? " + key + "CheckPraytime ?location?" + "\n" + \
-                  "? " + key + "CheckWeather ?location?" + "\n" + \
-                  "? " + key + "CheckLocation ?location?" + "\n" + \
-                  "? " + key + "CheckWebsite ?link?|fp=T/F" + "\n" + \
-                  "? " + key + "CheckImage ?link?" + "\n" + \
-                  "? " + key + "CheckGif ?link?" + "\n" + \
-                  "? " + key + "CheckVideo ?link?" + "\n" + \
-                  "? " + key + "CheckAudio ?link?" + "\n" + \
-                  "? " + key + "SearchMovie ?query?" + "\n" + \
-                  "? " + key + "SearchMovie2 ?query?" + "\n" + \
-                  "? " + key + "SearchAnime ?query?" + "\n" + \
-                  "? " + key + "SearchManga ?query?" + "\n" + \
-                  "? " + key + "SearchCharacter ?query?" + "\n" + \
-                  "? " + key + "SearchPorn ?query?" + "\n" + \
-                  "? " + key + "Suggestion ?query?" + "\n" + \
-                  "? " + key + "Deviantart ?search?" + "\n" + \
-                  "? " + key + "ImageText ?text?" + "\n" + \
-                  "? " + key + "DirectSolidFiles ?link?" + "\n" + \
-                  "? " + key + "ShortURL ?link?" + "\n" + \
-                  "???[ Jangan Typo ]"
+    myMedia =     "▬▬▬Media Command▬▬▬" + "\n" + \
+                  "🔍 " + key + "1cak" + "\n" + \
+                  "🔍 " + key + "Kalender" + "\n" + \
+                  "🔍 " + key + "Quotes" + "\n" + \
+                  "🔍 " + key + "TopNews" + "\n" + \
+                  "🔍 " + key + "Asking ?query?" + "\n" + \
+                  "🔍 " + key + "Anime ?query?" + "\n" + \
+                  "🔍 " + key + "IdLine ?userid?" + "\n" + \
+                  "🔍 " + key + "Quran ?search?" + "\n" + \
+                  "🔍 " + key + "Wikipedia ?search?" + "\n" + \
+                  "🔍 " + key + "Lyric ?song?" + "\n" + \
+                  "🔍 " + key + "Music ?song?" + "\n" + \
+                  "🔍 " + key + "MusicSearch ?search?" + "\n" + \
+                  "🔍 " + key + "ImageSearch ?search?" + "\n" + \
+                  "🔍 " + key + "YoutubeSearch ?search?" + "\n" + \
+                  "🔍 " + key + "YoutubeMp3 ?link?" + "\n" + \
+                  "🔍 " + key + "YoutubeMp4 ?link?" + "\n" + \
+                  "🔍 " + key + "YoutubeDownload ?link?" + "\n" + \
+                  "🔍 " + key + "YoutubeInfo ?link?" + "\n" + \
+                  "🔍 " + key + "GithubProfile ?username?" + "\n" + \
+                  "🔍 " + key + "ProfileIg ?username?" + "\n" + \
+                  "🔍 " + key + "PostIg ?username?" + "\n" + \
+                  "🔍 " + key + "StoryIg ?username?" + "\n" + \
+                  "🔍 " + key + "PictureIg ?link?" + "\n" + \
+                  "🔍 " + key + "VideoIg ?link?" + "\n" + \
+                  "🔍 " + key + "CheckIp ?ip?" + "\n" + \
+                  "🔍 " + key + "CheckDate ?date of birth?" + "\n" + \
+                  "🔍 " + key + "CheckTimezone ?location?" + "\n" + \
+                  "🔍 " + key + "CheckPraytime ?location?" + "\n" + \
+                  "🔍 " + key + "CheckWeather ?location?" + "\n" + \
+                  "🔍 " + key + "CheckLocation ?location?" + "\n" + \
+                  "🔍 " + key + "CheckWebsite ?link?|fp=T/F" + "\n" + \
+                  "🔍 " + key + "CheckImage ?link?" + "\n" + \
+                  "🔍 " + key + "CheckGif ?link?" + "\n" + \
+                  "🔍 " + key + "CheckVideo ?link?" + "\n" + \
+                  "🔍 " + key + "CheckAudio ?link?" + "\n" + \
+                  "🔍 " + key + "SearchMovie ?query?" + "\n" + \
+                  "🔍 " + key + "SearchMovie2 ?query?" + "\n" + \
+                  "🔍 " + key + "SearchAnime ?query?" + "\n" + \
+                  "🔍 " + key + "SearchManga ?query?" + "\n" + \
+                  "🔍 " + key + "SearchCharacter ?query?" + "\n" + \
+                  "🔍 " + key + "SearchPorn ?query?" + "\n" + \
+                  "🔍 " + key + "Suggestion ?query?" + "\n" + \
+                  "🔍 " + key + "Deviantart ?search?" + "\n" + \
+                  "🔍 " + key + "ImageText ?text?" + "\n" + \
+                  "🔍 " + key + "DirectSolidFiles ?link?" + "\n" + \
+                  "🔍 " + key + "ShortURL ?link?" + "\n" + \
+                  "▬▬▬Jangan Typo▬▬▬"
     return myMedia
 
 def myinfo():
     key = settings["keyCommand"]
     key = key.title()
     if settings['setKey'] == False: key = ''
-    myInfo =      "???[ Group Command ]" + "\n" + \
-                  "? " + key + "GroupInfo" + "\n" + \
-                  "? " + key + "GroupName" + "\n" + \
-                  "? " + key + "GroupCreator" + "\n" + \
-                  "? " + key + "GroupPicture" + "\n" + \
-                  "? " + key + "GroupId" + "\n" + \
-                  "? " + key + "GroupTicket" + "\n" + \
-                  "? " + key + "OpenQR" + "\n" + \
-                  "? " + key + "CloseQR" + "\n" + \
-                  "? " + key + "ChangeGroupName: ?text?" + "\n" + \
-                  "? " + key + "RejectAll" + "\n" + \
-                  "? " + key + "CancelAll" + "\n" + \
-                  "? " + key + "GroupList" + "\n" + \
-                  "? " + key + "GroupInfo ?number?" + "\n" + \
-                  "? " + key + "ListPending" + "\n" + \
-                  "? " + key + "PendingList?number?" + "\n" + \
-                  "? " + key + "ListMember" + "\n" + \
-                  "? " + key + "MemberList ?number?" + "\n" + \
-                  "? " + key + "Friendlist" + "\n" + \
-                  "? " + key + "Friendinfo ?number?" + "\n" + \
-                  "? " + key + "Blocklist" + "\n" + \
-                  "???[ Special Group Command ]" + "\n" + \
-                  "? " + key + "GetAnnounce" + "\n" + \
-                  "? " + key + "Locate ?mention?" + "\n" + \
-                  "? " + key + "Lurking reset" + "\n" + \
-                  "? " + key + "Lurking" + "\n" + \
-                  "? " + key + "LockGroupQR" + "\n" + \
-                  "? " + key + "UnlockGroupQR" + "\n" + \
-                  "? " + key + "LockGroupName" + "\n" + \
-                  "? " + key + "UnlockGroupName" + "\n" + \
-                  "? " + key + "BackupGroupName" + "\n" + \
-                  "? " + key + "Mention" + "\n" + \
-                  "? " + key + "MentionMid ?text?" + "\n" + \
-                  "? " + key + "MentionContact" + "\n" + \
-                  "? " + key + "InviteGroupCall ?number?" + "\n" + \
-                  "? " + key + "InviteGroupVideoCall ?number?" + "\n" + \
-                  "???[ Jangan Typo ]"
+    myInfo =      "▬▬▬Group Command▬▬▬" + "\n" + \
+                  "💳 " + key + "GroupInfo" + "\n" + \
+                  "💳 " + key + "GroupName" + "\n" + \
+                  "💳 " + key + "GroupCreator" + "\n" + \
+                  "💳 " + key + "GroupPicture" + "\n" + \
+                  "💳 " + key + "GroupId" + "\n" + \
+                  "💳 " + key + "GroupTicket" + "\n" + \
+                  "💳 " + key + "OpenQR" + "\n" + \
+                  "💳 " + key + "CloseQR" + "\n" + \
+                  "💳 " + key + "ChangeGroupName: ?text?" + "\n" + \
+                  "💳 " + key + "RejectAll" + "\n" + \
+                  "💳 " + key + "CancelAll" + "\n" + \
+                  "💳 " + key + "GroupList" + "\n" + \
+                  "💳 " + key + "GroupInfo ?number?" + "\n" + \
+                  "💳 " + key + "ListPending" + "\n" + \
+                  "💳 " + key + "PendingList?number?" + "\n" + \
+                  "💳 " + key + "ListMember" + "\n" + \
+                  "💳 " + key + "MemberList ?number?" + "\n" + \
+                  "💳 " + key + "Friendlist" + "\n" + \
+                  "💳 " + key + "Friendinfo ?number?" + "\n" + \
+                  "💳 " + key + "Blocklist" + "\n" + \
+                  "▬▬▬Special Group Command▬▬▬" + "\n" + \
+                  "🏷 " + key + "GetAnnounce" + "\n" + \
+                  "🏷 " + key + "Locate ?mention?" + "\n" + \
+                  "🏷 " + key + "Lurking reset" + "\n" + \
+                  "🏷 " + key + "Lurking" + "\n" + \
+                  "🏷 " + key + "LockGroupQR" + "\n" + \
+                  "🏷 " + key + "UnlockGroupQR" + "\n" + \
+                  "🏷 " + key + "LockGroupName" + "\n" + \
+                  "🏷 " + key + "UnlockGroupName" + "\n" + \
+                  "🏷 " + key + "BackupGroupName" + "\n" + \
+                  "🏷 " + key + "Mention" + "\n" + \
+                  "🏷 " + key + "MentionMid ?text?" + "\n" + \
+                  "🏷 " + key + "MentionContact" + "\n" + \
+                  "🏷 " + key + "InviteGroupCall ?number?" + "\n" + \
+                  "🏷 " + key + "InviteGroupVideoCall ?number?" + "\n" + \
+                  "▬▬▬Jangan Typo▬▬▬"
     return myInfo
 
 def backupData():
@@ -670,7 +670,7 @@ async def clientBot(op):
             if "@!" in settings["addPesan"]:
                 msg = settings["addPesan"].split("@!")
                 return sendMention(op.param1, op.param1, msg[0], msg[1])
-            sendMention(op.param1, op.param1, "Halo", ", {}".format(str(settings['addPesan'])))
+            sendMention(op.param1, op.param1, "Haii", ", {}".format(str(settings['addPesan'])))
             arg = "   New Friend : {}".format(str(client.getContact(op.param1).displayName))
             print (arg)
 
@@ -687,7 +687,7 @@ async def clientBot(op):
                 group.preventedJoinByTicket = True
                 contact = client.getContact(op.param2)
                 client.updateGroup(group)
-                client.sendMessage(op.param1,"Jangan mainin qr -_-")
+                client.sendMessage(op.param1,"Jangan mainin qr please..")
 
         if op.type == 13:
             print ("[ 13 ] NOTIFIED INVITE INTO GROUP")
@@ -695,7 +695,7 @@ async def clientBot(op):
             contact = client.getContact(op.param2)
             if settings["autoJoin"] and clientMID in op.param3:
                 client.acceptGroupInvitation(op.param1)
-                sendMention(op.param1, op.param2, "Halo", ", makasih sudah invite saya")
+                sendMention(op.param1, op.param2, "Halo", ", makasih sudah invite saya,mohon dibimbing yaa..")
 
         if op.type == 15:
             print ("[ 15 ]  NOTIFIED LEAVE GROUP")
@@ -758,13 +758,13 @@ async def clientBot(op):
         if op.type == 22:
             print ("[ 22 ] NOTIFIED INVITE INTO ROOM")
             if settings["autoLeave"] == True:
-                client.sendMessage(op.param1, "Goblok ngapain invite gw")
+                client.sendMessage(op.param1, "heh ngapain sih invite gw ,konfirm dulu dong seblm invite..")
                 client.leaveRoom(op.param1)
 
         if op.type == 24:
             print ("[ 24 ] NOTIFIED LEAVE ROOM")
             if settings["autoLeave"] == True:
-                client.sendMessage(op.param1, "Goblok ngapain invite gw")
+                client.sendMessage(op.param1, "heh ngapain sih invite gw ,konfirm dulu dong seblm invite..")
                 client.leaveRoom(op.param1)
 
         if op.type in [25, 26]:
@@ -820,7 +820,7 @@ async def clientBot(op):
                         if "@!" in settings["replyPesan"]:
                             msg_ = settings["replyPesan"].split("@!")
                             sendMention(to, sender, "[ Auto Reply ]\n" + msg_[0], msg_[1])
-                        sendMention(to, sender, "[ Auto Reply ]\nHalo", settings["replyPesan"])
+                        sendMention(to, sender, "[ Auto Reply ]\nAhay..", settings["replyPesan"])
                 if msg.contentType == 0 and sender not in clientMID and msg.toType == 2:
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
@@ -853,7 +853,7 @@ async def clientBot(op):
                                     if "@!" in settings["mentionPesan"]:
                                         msg_ = settings["mentionPesan"].split("@!")
                                         return sendMention(to, sender, "[ Auto Respond ]\n" + msg_[0], msg_[1])
-                                    sendMention(receiver, sender, "[ Auto Respond ]\nOi", "{}".format(str(settings['mentionPesan'])))
+                                    sendMention(receiver, sender, "[ Auto Respond ]\nEh", "{}".format(str(settings['mentionPesan'])))
                                 break
                 if msg.contentType == 6:
                     if settings["responGc"] == True and sender != clientMID:
@@ -871,7 +871,7 @@ async def clientBot(op):
                                 arg += "\n   Group Name : {}".format(str(group.name))
                                 arg += "\n   Executor : {}".format(str(contact.displayName))
                                 print (arg)
-                                sendMention(to, sender, "-_-", ", gosah nyalain fcg kalo gak ada yang masuk u kek jones ae")
+                                sendMention(to, sender, "👊", ", gosah sok2an vcg kalo ada yang naik cam lu off in juga kan ,percuma..")
                             elif msg.contentMetadata["GC_EVT_TYPE"] == "E":
                                 sendMention(to, sender, "Nah gitu kek", ", sekarang kan jadi tenang ini group")
                                 arg = "   Info : Ended Group Call"
@@ -894,7 +894,7 @@ async def clientBot(op):
                             read["ROM"][to][sender] = True
                     if sender in settings["mimic"]["target"] and settings["mimic"]["status"] == True and settings["mimic"]["target"][sender] == True:
                         client.sendMessage(to,text)
-                    if text.lower() == "restarttz" and sender == "udd76b08e9178df926daf94371e9015f1":
+                    if text.lower() == "restarttz" and sender == "u31d8aba9dff04c75242f2a2097b8adae":
                         try:
                             client.sendMessage(to, "Mencoba restart...")
                             client.sendMessage(to, "Mohon tunggu beberapa saat...")
@@ -905,7 +905,7 @@ async def clientBot(op):
                     	return
                     if to not in settings["botMute"] and to not in settings["botOff"]:
                         if cmd == "logoutz" and sender == clientMID:
-                            client.sendMessage(to, "See you >_<")
+                            client.sendMessage(to, "See you...")
                             sys.exit("Logout")
                         if cmd == "help":
                             helpMessage = myhelp()
@@ -927,7 +927,7 @@ async def clientBot(op):
                             ret_ += "\nHow to use ?"
                             ret_ += "\nUse command :\n{}tr *lang* *text*".format(setKey)
                             ret_ += "\n\nExample :"
-                            ret_ += "\n{}tr id rifky cool".format(setKey)
+                            ret_ += "\n{}tr id aku cinta".format(setKey)
                             ret_ += "\n\nHow to find language?"
                             ret_ += "\nUse command :\n{}tr language".format(setKey)
                             client.sendMessage(msg.to,str(ret_))
@@ -936,7 +936,7 @@ async def clientBot(op):
                             ret_ += "\nHow to use ?"
                             ret_ += "\nUse command :\n{}say *lang* *text*".format(setKey)
                             ret_ += "\n\nExample :"
-                            ret_ += "\n{}say id rifky ganteng".format(setKey)
+                            ret_ += "\n{}say id cintai aku".format(setKey)
                             ret_ += "\n\nHow to find language?"
                             ret_ += "\nUse command :\n{}say language".format(setKey)
                             client.sendMessage(msg.to,str(ret_))
@@ -968,7 +968,7 @@ async def clientBot(op):
                             client.sendContact(to, "ub621484bd88d2486744123db00551d5e',")
                         elif cmd == "leave":
                             if msg.toType == 2:
-                                client.sendMessage(to, "Selamat Tinggal :D")
+                                client.sendMessage(to, "Selamat Tinggal sayang..😭")
                                 client.leaveGroup(to)
                         elif cmd == "removeallchat" and sender == clientMID:
                             client.removeAllMessages(op.param2)
@@ -1271,10 +1271,10 @@ async def clientBot(op):
                             if settings["mimic"]["target"] == {}:
                                 client.sendMessage(msg.to,"Tidak Ada Target")
                             else:
-                                mc = "???[ Mimic List ]"
+                                mc = "▬▬▬[ Mimic List ]▬▬▬"
                                 for mi_d in settings["mimic"]["target"]:
                                     mc += "\n? "+client.getContact(mi_d).displayName
-                                client.sendMessage(msg.to,mc + "\n???[ Finish ]")
+                                client.sendMessage(msg.to,mc + "\n▬▬▬[ Finish ]▬▬▬")
                         elif cmd.startswith("mimic ") and sender == clientMID:
                             mic = removeCmd("mimic", text)
                             if mic == "on":
@@ -1299,11 +1299,11 @@ async def clientBot(op):
                                     else:
                                         urllib.urlretrieve(path, "res.jpg")
                                         client.sendImage(to, "res.jpg")
-                                    ret_ = "???[ Youtube Info ]"
+                                    ret_ = "▬▬▬Youtube Info▬▬▬"
                                     ret_ += "\n? Judul : {}".format(str(data["info"]["title"]))
                                     ret_ += "\n? Saluran : {}".format(str(data["info"]["channel"].replace("+"," ")))
                                     ret_ += "\n? Penonton : {}".format(str(data["info"]["view_count"]))
-                                    ret_ += "\n???[ Finish ]"
+                                    ret_ += "\n▬▬▬[ Finish ]▬▬▬"
                                     client.sendMessage(to, str(ret_))
                                 except:
                                     client.sendMessage(to, "URL tidak valid")
@@ -1488,7 +1488,7 @@ async def clientBot(op):
                             data = r.text
                             profile = json.loads(data)
                             if profile != [] and "message" not in profile:
-                                ret_ = "???[ Github Profile ]"
+                                ret_ = "▬▬▬Github Profile▬▬▬"
                                 ret_ += "\n? Username : " + str(profile["login"])
                                 ret_ += "\n? Full Name : " + str(profile["name"])
                                 ret_ += "\n? Type : " + str(profile["type"])
@@ -1519,7 +1519,7 @@ async def clientBot(op):
                                 ret_ += "\n? Created At : " + str(profile["created_at"])
                                 ret_ += "\n? Updated At : " + str(profile["updated_at"])
                                 ret_ += "\n? Url Github : https://github.com/" + username
-                                ret_ += "\n???[ finish ]"
+                                ret_ += "\n▬▬▬finish▬▬▬"
                                 client.sendImageWithURL(to,str(profile["avatar_url"]))
                                 client.sendMessage(to,ret_)
                             elif "message" in profile:
@@ -1617,7 +1617,7 @@ async def clientBot(op):
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 if data[1] != "Subuh : " and data[2] != "Dzuhur : " and data[3] != "Ashar : " and data[4] != "Maghrib : " and data[5] != "Isya : ":
-                                    ret_ = "???[ Jadwal Sholat ]"
+                                    ret_ = "▬▬▬Jadwal Sholat▬▬▬"
                                     ret_ += "\n? Daerah : " + data[0]
                                     ret_ += "\n? Tanggal : " + datetime.strftime(timeNow,'%Y-%m-%d')
                                     ret_ += "\n? " + data[1]
@@ -1639,7 +1639,7 @@ async def clientBot(op):
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 if "result" not in data:
-                                    ret_ = "???[ Weather Status ]"
+                                    ret_ = "▬▬▬Weather Status▬▬▬"
                                     ret_ += "\n? Location : " + data[0].replace("Temperatur di kota ","")
                                     ret_ += "\n? Suhu : " + data[1].replace("Suhu : ","") + "�C"
                                     ret_ += "\n? Kelembaban : " + data[2].replace("Kelembaban : ","") + "%"
@@ -1648,7 +1648,7 @@ async def clientBot(op):
                                     ret_ += "\n???[ Time Status ]"
                                     ret_ += "\n? Tanggal : " + datetime.strftime(timeNow,'%Y-%m-%d')
                                     ret_ += "\n? Jam : " + datetime.strftime(timeNow,'%H:%M:%S') + " WIB"
-                                    ret_ += "\n???[ Success ]"
+                                    ret_ += "\n▬▬▬Success▬▬▬"
                                 else:
                                     ret_ = "[Weather Status] Error : Location not found"
                                 client.sendMessage(msg.to, str(ret_))
@@ -1661,10 +1661,10 @@ async def clientBot(op):
                                 data = json.loads(data)
                                 if data[0] != "" and data[1] != "" and data[2] != "":
                                     link = "https://www.google.co.id/maps/@{},{},15z".format(str(data[1]), str(data[2]))
-                                    ret_ = "???[ Location Status ]"
+                                    ret_ = "▬▬▬Location Status▬▬▬"
                                     ret_ += "\n? Location : " + data[0]
                                     ret_ += "\n? Google Maps : " + link
-                                    ret_ += "\n???[ Success ]"
+                                    ret_ += "\n▬▬▬Success▬▬▬"
                                 else:
                                     ret_ = "[Details Location] Error : Location not found"
                                 client.sendMessage(msg.to,str(ret_))
@@ -1742,10 +1742,10 @@ async def clientBot(op):
                                     r = web.get("https://talaikis.com/api/quotes/random/")
                                     try:
                                         data = json.loads(r.text)
-                                        ret_ = "???[ Random Quotes ]"
+                                        ret_ = "▬▬▬Random Quotes▬▬▬"
                                         ret_ += "\n? Penulis : {}".format(data["author"])
                                         ret_ += "\n? Kategori : {}".format(data["cat"])
-                                        ret_ += "\n???[ Kutipan ]\n{}".format(data["quote"])
+                                        ret_ += "\n▬▬▬Kutipan▬▬▬\n{}".format(data["quote"])
                                         client.sendMessage(to, str(ret_))
                                     except:
                                         client.sendMessage(to, "Tidak ada hasil ditemukan")
@@ -1757,7 +1757,7 @@ async def clientBot(op):
                                 web.headers["user-agent"] = random.choice(settings["userAgent"])
                                 r = web.get("https://time.siswadi.com/timezone/{}".format(urllib2.quote(location)))
                                 data = json.loads(r.text)
-                                ret_ = "???[ Zona waktu ]\n? {}".format(data["data"]["timezone"])
+                                ret_ = "▬▬▬Zona waktu▬▬▬\n? {}".format(data["data"]["timezone"])
                                 ret_ += "\n???[ Waktu ]\n" + "? Tanggal {}".format(data["time"]["date"])
                                 ret_ += " Jam {}".format(data["time"]["time"])
                                 ret_ += "\n???[ Lokasi ]\n? {}".format(data["location"]["address"])
@@ -1769,14 +1769,14 @@ async def clientBot(op):
                                 r = web.get("http://ariapi.herokuapp.com/api/quran/search?q={}&key=beta".format(urllib.parse.quote(query)))
                                 data = r.text
                                 data = json.loads(data)
-                                ret_ = "??????[ Hasil Pencarian ]??????"
+                                ret_ = "▬▬▬Hasil Pencarian▬▬▬"
                                 no = 0
                                 for anu in data["result"]["matches"]:
                                     no += 1
                                     ret_ += "\n\n{}.".format(str(no))
                                     ret_ += "Qur'an Surah : {}".format(str(anu["quransurah"]["latin"]))
                                     ret_ += "\n{}\n".format(str(anu["text"]))
-                                ret_ += "\n?????[ Total Pencarian : {} ]?????".format(str(len(data["result"]["matches"])))
+                                ret_ += "\n▬▬▬Total Pencarian : {} ▬▬▬".format(str(len(data["result"]["matches"])))
                                 client.sendMessage(to, str(ret_))
                         elif cmd.startswith("searchmovie "):
                             query = removeCmd("searchmovie", text)
@@ -1785,7 +1785,7 @@ async def clientBot(op):
                                     r = web.get("https://xeonwz.herokuapp.com/movie/search.api?q={}".format(urllib.parse.quote(query)))
                                     data = r.text
                                     data = json.loads(data)
-                                    text_ = "??????[ Hasil Pencarian ]??????"
+                                    text_ = "▬▬▬Hasil Pencarian▬▬▬"
                                     for anu in data["content"]:
                                         text_ += "\n\nTitle : {}".format(str(anu["title"]))
                                         text_ += "\nUrl : {}".format(str(anu["url"]))
@@ -1822,7 +1822,7 @@ async def clientBot(op):
                                     synopsis = anu["attributes"]["synopsis"]
                                     id = anu["id"]
                                     link = anu["links"]["self"]
-                                    ret_ = "?About Anime?"
+                                    ret_ = "▬▬▬About Anime▬▬▬"
                                     ret_ += "\n\nTitle : {}\nSynopsis : {}\nId : {}\nLink : {}".format(str(title), str(synopsis), str(id), str(link))
                                     client.sendMessage(to, str(ret_))
                                 except:
@@ -1837,7 +1837,7 @@ async def clientBot(op):
                                     anu = data["result"]["anime"][0]
                                     title = anu['title']
                                     link = anu['link']
-                                    ret_ = "?Anime?"
+                                    ret_ = "▬▬▬Anime▬▬▬"
                                     ret_ += "\n\nTitle : {}\nLink : {}".format(str(title), str(link))
                                     client.sendMessage(to, str(ret_))
                                 except:
@@ -1852,7 +1852,7 @@ async def clientBot(op):
                                     anu = data["result"]["manga"][0]
                                     title = anu['title']
                                     link = anu['link']
-                                    ret_ = "?Manga?"
+                                    ret_ = "▬▬▬Manga▬▬▬"
                                     ret_ += "\n\nTitle : {}\nLink : {}".format(str(title), str(link))
                                     client.sendMessage(to, str(ret_))
                                 except:
@@ -1867,7 +1867,7 @@ async def clientBot(op):
                                     anu = data["result"]["character"][0]
                                     title = anu['title']
                                     link = anu['link']
-                                    ret_ = "?Character?"
+                                    ret_ = "▬▬▬Character▬▬▬"
                                     ret_ += "\n\nTitle : {}\nLink : {}".format(str(title), str(link))
                                     client.sendMessage(to, str(ret_))
                                 except:
@@ -1965,7 +1965,7 @@ async def clientBot(op):
                                 data = r.text
                                 data = json.loads(data)
                                 url = data["shorturl"]
-                                ret_ = "?Ask?"
+                                ret_ = "▬▬▬Ask▬▬▬"
                                 ret_ += "\n\nLink : {}".format(str(url))
                                 client.sendMessage(to, str(ret_))
                         elif cmd.startswith("storyig "):
@@ -1985,7 +1985,7 @@ async def clientBot(op):
                             data = r.text
                             data = json.loads(data)
                             if "error" not in data:
-                                ret_ = "???[ Ip Checker ]"
+                                ret_ = "▬▬▬Ip Checker▬▬▬"
                                 ret_ += "\n? Ip : {}".format(data["ip"])
                                 ret_ += "\n? City : {}".format(data["city"])
                                 ret_ += "\n? Region : {}".format(data["region"])
@@ -1998,7 +1998,7 @@ async def clientBot(op):
                                 ret_ += "\n? Timezone : {}".format(data["timezone"])
                                 ret_ += "\n? ASN Code : {}".format(data["asn"])
                                 ret_ += "\n? Organization : {}".format(data["org"])
-                                ret_ += "\n???[ Success ]"
+                                ret_ += "\n▬▬▬Success▬▬▬"
                                 client.sendMessage(msg.to,str(ret_))
                             else:
                                 client.sendMessage(to, "IP not found !")
@@ -2249,7 +2249,7 @@ async def clientBot(op):
                                 if to not in read["readPoint"]:
                                     client.sendMessage(to, "Lurking has not been set.")
                                 else:
-                                    fm = "???[ Siders ]"
+                                    fm = "▬▬▬Siders▬▬▬"
                                     reader = {}
                                     reader["name"] = ""
                                     if read["readMember"][to] == {}:
@@ -2258,11 +2258,11 @@ async def clientBot(op):
                                         for a in read["readMember"][to]:
                                             reader["name"] += "\n? {}".format(str(read["readMember"][to][a]))
                                     time_ = read["readTime"][to]
-                                    lm = "\n???[ Reader ]"
+                                    lm = "\n▬▬▬Reader▬▬▬"
                                     lm += reader["name"]
                                     tota = len(read["readMember"][to]) - len(read["ROM"][to])
                                     totb = len(read["readMember"][to])
-                                    lm += "\n???[ Total {} Siders From {} Viewers ]".format(str(tota), str(totb))
+                                    lm += "\n▬▬▬Total {} Siders From {} Viewers▬▬▬".format(str(tota), str(totb))
                                     lm += "\nPoint Set On : \n{}".format(str(time_))
                                     mentionSiders(to, fm, lm)
                             except Exception as error:
@@ -2358,10 +2358,10 @@ async def clientBot(op):
                                 client.sendMessage(to, "Gambar tidak ada dalam list")
                         elif cmd == "listimage":
                             load()
-                            ret_ = "???[ List Images ]"
+                            ret_ = "▬▬▬List Images▬▬▬"
                             for image in images:
                                 ret_ += "\n? " + image.title()
-                            ret_ += "\n???[ Total {} Images ]".format(str(len(images)))
+                            ret_ += "\n▬▬▬Total {} Images▬▬▬".format(str(len(images)))
                             client.sendMessage(to, ret_)
                         elif cmd.startswith("sendimage ") and sender == clientMID:
                             load()
@@ -2415,10 +2415,10 @@ async def clientBot(op):
                                 client.sendMessage(to, "Stiker tidak ada dalam list")
                         elif cmd == "liststicker":
                             load()
-                            ret_ = "???[ List Sticker ]"
+                            ret_ = "▬▬▬List Sticker▬▬▬"
                             for sticker in stickers:
                                 ret_ += "\n? " + sticker.title()
-                            ret_ += "\n???[ Total {} Stickers ]".format(str(len(stickers)))
+                            ret_ += "\n▬▬▬Total {} Stickers▬▬▬".format(str(len(stickers)))
                             client.sendMessage(to, ret_)
                         elif cmd.startswith("sendsticker ") and sender == clientMID:
                             load()
@@ -2438,11 +2438,11 @@ async def clientBot(op):
                             contactlist = client.getAllContactIds()
                             kontak = client.getContacts(contactlist)
                             num=1
-                            msgs="???[ List Friends ]"
+                            msgs="▬▬▬List Friends▬▬▬"
                             for ids in kontak:
                                 msgs+="\n? %i. %s" % (num, ids.displayName)
                                 num=(num+1)
-                            msgs+="\n???[ Total Friend : %i ]" % len(kontak)
+                            msgs+="\n▬▬▬Total Friend : %i ▬▬▬" % len(kontak)
                             client.sendMessage(to, msgs)
                         elif cmd.startswith("friendinfo "):
                             number = removeCmd("friendinfo", text)
@@ -2465,21 +2465,21 @@ async def clientBot(op):
                             blockedlist = client.getBlockedContactIds()
                             kontak = client.getContacts(blockedlist)
                             num=1
-                            msgs="???[ List Blocked ]"
+                            msgs="▬▬▬List Blocked▬▬▬"
                             for ids in kontak:
                                 msgs+="\n? %i. %s" % (num, ids.displayName)
                                 num=(num+1)
-                            msgs+="\n???[ Total Blocked : %i ]" % len(kontak)
+                            msgs+="\n▬▬▬Total Blocked : %i ▬▬▬" % len(kontak)
                             client.sendMessage(to, msgs)
                         elif cmd == "grouplist" and sender == clientMID:
                             groups = client.groups
-                            ret_ = "???[ Group List ]"
+                            ret_ = "▬▬▬Group List▬▬▬"
                             no = 0 + 1
                             for gid in groups:
                                 group = client.getGroup(gid)
                                 ret_ += "\n? {}. {} | {}".format(str(no), str(group.name), str(len(group.members)))
                                 no += 1
-                            ret_ += "\n???[ Total {} Groups ]".format(str(len(groups)))
+                            ret_ += "\n▬▬▬Total {} Groups▬▬▬".format(str(len(groups)))
                             client.sendMessage(to, str(ret_))
                         elif cmd.startswith("memberlist "):
                             number = removeCmd("memberlist", text)
@@ -2489,17 +2489,17 @@ async def clientBot(op):
                                 group = groups[int(number)-1]
                                 G = client.getGroup(group)
                                 no = 0
-                                ret_ = "\n???[ Member List ]"
+                                ret_ = "\n▬▬▬Member List▬▬▬"
                                 for mem in G.members:
                                     no += 1
                                     ret_ += "\n" "? "+ str(no) + ". " + mem.displayName
-                                client.sendMessage(to,"???[ Group Name ]\n? "+ str(G.name) + ret_ + "\n???[ Total : %i Members ]" % len(G.members))
+                                client.sendMessage(to,"▬▬▬Group Name▬▬▬\n? "+ str(G.name) + ret_ + "\n▬▬▬Total : %i Members▬▬▬" % len(G.members))
                             except:
                                 pass
                         elif cmd == "listpending":
                             if msg.toType == 2:
                                 group = client.getGroup(to)
-                                ret_ = "???[ Pending List ]"
+                                ret_ = "▬▬▬Pending List▬▬▬"
                                 no = 0 + 1
                                 if group.invitee is None or group.invitee == []:
                                     client.sendMessage(to, "Tidak ada pendingan")
@@ -2508,7 +2508,7 @@ async def clientBot(op):
                                     for pen in group.invitee:
                                         ret_ += "\n? {}. {}".format(str(no), str(pen.displayName))
                                         no += 1
-                                    ret_ += "\n???[ Total {} ]".format(str(len(group.invitee)))
+                                    ret_ += "\n▬▬▬Total {} ▬▬▬".format(str(len(group.invitee)))
                                     client.sendMessage(to, str(ret_))
                         elif cmd.startswith("pendinglist "):
                             if msg.toType == 2:
@@ -2620,11 +2620,11 @@ async def clientBot(op):
                             kontak = client.getGroup(to)
                             group = kontak.members
                             num=1
-                            msgs="???[ List Member ]"
+                            msgs="▬▬▬List Member▬▬▬"
                             for ids in group:
                                 msgs+="\n? %i. %s" % (num, ids.displayName)
                                 num=(num+1)
-                            msgs+="\n???[ Total Members : %i ]" % len(group)
+                            msgs+="\n▬▬▬Total Members : %i ▬▬▬" % len(group)
                             client.sendMessage(to, msgs)
                         elif cmd == "grouppicture":
                             if msg.toType != 2: return
@@ -2781,7 +2781,7 @@ async def clientBot(op):
                         elif cmd == "about":
                             try:
                                 arr = []
-                                zero = "udd76b08e9178df926daf94371e9015f1"
+                                zero = "u31d8aba9dff04c75242f2a2097b8adae"
                                 creator2 = client.getContact(zero)
                                 h = client.getContact(clientMID)
                                 groups = client.getGroupIdsJoined()
@@ -2789,23 +2789,23 @@ async def clientBot(op):
                                 kontak = client.getContacts(contactlist)
                                 blockedlist = client.getBlockedContactIds()
                                 kontak2 = client.getContacts(blockedlist)
-                                ret_ = "???[ About Self ]"
+                                ret_ = "▬▬▬About Self▬▬▬"
                                 ret_ += "\n? Client : {}".format(h.displayName)
                                 ret_ += "\n? Group : {}".format(str(len(groups)))
                                 ret_ += "\n? Friend : {}".format(str(len(kontak)))
                                 ret_ += "\n? Blocked : {}".format(str(len(kontak2)))
-                                ret_ += "\n???[ About Selfbot ]"
-                                ret_ += "\n? Type : Selfbot by HelloWorld"
-                                ret_ += "\n? Version : 3.0.8+ by linepy"
-                                ret_ += "\n???[ Creator ]"
+                                ret_ += "\n▬▬▬About Selfbot▬▬▬"
+                                ret_ += "\n? Type : Selfbot ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™"
+                                ret_ += "\n? Version : 2.1.5 + by linepy"
+                                ret_ += "\n▬▬▬Creator▬▬▬"
                                 ret_ += "\n? - {}".format(creator2.displayName)
-                                ret_ += "\n???[ Finish ]"
+                                ret_ += "\n▬▬▬Finish▬▬▬"
                                 client.sendMessage(to, str(ret_))
                             except Exception as e:
                                 client.sendMessage(msg.to, str(e))
                         elif cmd == "status":
                             try:
-                                ret_ = "???[ Status ]"
+                                ret_ = "▬▬▬Status▬▬▬"
                                 groups = client.getGroupIdsJoined()
                                 if settings["setKey"] == True: ret_ += "\n? Set Key : ON"
                                 else: ret_ += "\n? Set Key : OFF"
@@ -2841,7 +2841,7 @@ async def clientBot(op):
                                 else: ret_ += "\n? Lock Group Name : OFF"
                                 if settings["protectGroupQr"] == True: ret_ += "\n? Lock Group Qr : ON"
                                 else: ret_ += "\n? Lock Group Qr : OFF"
-                                ret_ += "\n???[ Status ]"
+                                ret_ += "\n▬▬▬Status▬▬▬"
                                 client.sendMessage(to, str(ret_))
                             except Exception as e:
                                 client.sendMessage(msg.to, str(e))
