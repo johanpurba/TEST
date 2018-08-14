@@ -364,14 +364,14 @@ def helpmessage():
         key = settings['keyCommand']
     else:
         key = ''
-    helpMessage =   ". [ Menu Help ]" + "\n" + \
-                    ". " + key + " Self" + "\n" + \
-                    ". " + key + " Group" + "\n" + \
-                    ". " + key + " Special" + "\n" + \
-                    ". " + key + " Media" + "\n" + \
-                    ". " + key + " Status" + "\n" + \
-                    ". " + key + " Translate" + "\n" + \
-                    ". TTS"
+    helpMessage =   "🎯 [ Menu Help ]" + "\n" + \
+                    "🛡 " + key + " Self" + "\n" + \
+                    "🛡 " + key + " Group" + "\n" + \
+                    "🛡 " + key + " Special" + "\n" + \
+                    "🛡 " + key + " Media" + "\n" + \
+                    "🛡 " + key + " Status" + "\n" + \
+                    "🛡 " + key + " Translate" + "\n" + \
+                    "🛡 TTS"
     return helpMessage
 
 def helpmessage1():
@@ -379,28 +379,28 @@ def helpmessage1():
         key = settings['keyCommand']
     else:
         key = ''
-    helpMessage1 =  ". [ Menu Self ]" + "\n" + \
-                    ". " + key + "ChangeName:「Query」" + "\n" + \
-                    ". " + key + "ChangeBio:「Query」" + "\n" + \
-                    ". " + key + "Me" + "\n" + \
-                    ". " + key + "MyMid" + "\n" + \
-                    ". " + key + "MyName" + "\n" + \
-                    ". " + key + "MyBio" + "\n" + \
-                    ". " + key + "MyPicture" + "\n" + \
-                    ". " + key + "MyVideoProfile" + "\n" + \
-                    ". " + key + "MyCover" + "\n" + \
-                    ". " + key + "StealContact「Mention」" + "\n" + \
-                    ". " + key + "StealMid「Mention」" + "\n" + \
-                    ". " + key + "StealName「Mention」" + "\n" + \
-                    ". " + key + "StealBio「Mention」" + "\n" + \
-                    ". " + key + "StealPicture「Mention」" + "\n" + \
-                    ". " + key + "StealVideoProfile「Mention」" + "\n" + \
-                    ". " + key + "StealCover「Mention」" + "\n" + \
-                    ". " + key + "CloneProfile「Mention」" + "\n" + \
-                    ". " + key + "RestoreProfile" + "\n" + \
-                    ". " + key + "BackupProfile" + "\n" + \
-                    ". " + key + "Changevid" + "\n" + \
-                    ". ChangePictureProfile"
+    helpMessage1 =  "🎯 [ Menu Self ]" + "\n" + \
+                    "📁 " + key + "ChangeName:「Query」" + "\n" + \
+                    "📁 " + key + "ChangeBio:「Query」" + "\n" + \
+                    "📁 " + key + "Me" + "\n" + \
+                    "📁 " + key + "MyMid" + "\n" + \
+                    "📁 " + key + "MyName" + "\n" + \
+                    "📁 " + key + "MyBio" + "\n" + \
+                    "📁 " + key + "MyPicture" + "\n" + \
+                    "📁 " + key + "MyVideoProfile" + "\n" + \
+                    "📁 " + key + "MyCover" + "\n" + \
+                    "📁 " + key + "StealContact「Mention」" + "\n" + \
+                    "📁 " + key + "StealMid「Mention」" + "\n" + \
+                    "📁 " + key + "StealName「Mention」" + "\n" + \
+                    "📁 " + key + "StealBio「Mention」" + "\n" + \
+                    "📁 " + key + "StealPicture「Mention」" + "\n" + \
+                    "📁 " + key + "StealVideoProfile「Mention」" + "\n" + \
+                    "📁 " + key + "StealCover「Mention」" + "\n" + \
+                    "📁 " + key + "CloneProfile「Mention」" + "\n" + \
+                    "📁 " + key + "RestoreProfile" + "\n" + \
+                    "📁 " + key + "BackupProfile" + "\n" + \
+                    "📁 " + key + "Changevid" + "\n" + \
+                    "📁 ChangePictureProfile"
     return helpMessage1
 
 def helpmessage2():
@@ -408,18 +408,18 @@ def helpmessage2():
         key = settings['keyCommand']
     else:
         key = ''
-    helpMessage2 =  ". [ Menu Group ]" + "\n" + \
-                    ". " + key + "GroupCreator" + "\n" + \
-                    ". " + key + "GroupId" + "\n" + \
-                    ". " + key + "GroupName" + "\n" + \
-                    ". " + key + "GroupPicture" + "\n" + \
-                    ". " + key + "GroupTicket" + "\n" + \
-                    ". " + key + "GroupTicket「On/Off」" + "\n" + \
-                    ". " + key + "GroupList" + "\n" + \
-                    ". " + key + "GroupMemberList" + "\n" + \
-                    ". " + key + "GroupInfo" + "\n" + \
-                    ". " + key + "ChangeGroupPicture" + "\n" + \
-                    ". ChangeGroupPicture"
+    helpMessage2 =  "🎯 [ Menu Group ]" + "\n" + \
+                    "📝 " + key + "GroupCreator" + "\n" + \
+                    "📝 " + key + "GroupId" + "\n" + \
+                    "📝 " + key + "GroupName" + "\n" + \
+                    "📝 " + key + "GroupPicture" + "\n" + \
+                    "📝 " + key + "GroupTicket" + "\n" + \
+                    "📝 " + key + "GroupTicket「On/Off」" + "\n" + \
+                    "📝 " + key + "GroupList" + "\n" + \
+                    "📝 " + key + "GroupMemberList" + "\n" + \
+                    "📝 " + key + "GroupInfo" + "\n" + \
+                    "📝 " + key + "ChangeGroupPicture" + "\n" + \
+                    "📝 ChangeGroupPicture"
     return helpMessage2
 
 def helpmessage3():
@@ -427,7 +427,7 @@ def helpmessage3():
         key = settings['keyCommand']
     else:
         key = ''
-    helpMessage3 =  "╔══[ Menu Special ]" + "\n" + \
+    helpMessage3 =  "╔▬▬▬🎯 Menu Special 🎯" + "\n" + \
                     "╠ " + key + "Mimic「On/Off」" + "\n" + \
                     "╠ " + key + "MimicList" + "\n" + \
                     "╠ " + key + "MimicAdd「Mention」" + "\n" + \
@@ -435,7 +435,7 @@ def helpmessage3():
                     "╠ " + key + "Mention" + "\n" + \
                     "╠ " + key + "Lurking「On/Off/Reset」" + "\n" + \
                     "╠ " + key + "Lurking" + "\n" + \
-                    "╚══[ Doraemon Bot ]"
+                    "╚▬▬▬🎯ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™🎯"
     return helpMessage3
 
 def helpmessage4():
@@ -443,7 +443,7 @@ def helpmessage4():
         key = settings['keyCommand']
     else:
         key = ''
-    helpMessage4 =  "╔══[ Menu Media ]" + "\n" + \
+    helpMessage4 =  "╔▬▬▬🎯 Menu Media 🎯" + "\n" + \
                     "╠ " + key + "CheckDate「Date」" + "\n" + \
                     "╠ " + key + "CheckWebsite「Url」" + "\n" + \
                     "╠ " + key + "CheckPraytime「Location」" + "\n" + \
@@ -458,7 +458,7 @@ def helpmessage4():
                     "╠ " + key + "SearchImage 「Search」" + "\n" + \
                     "╠ " + key + "/call 「Number」" + "\n" + \
                     "╠ " + key + "/sms 「Number」「Text」" + "\n" + \
-                    "╚══[ Doraemon Bot ]"
+                    "╚▬▬▬🎯ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™🎯"
     return helpMessage4
 
 def helpmessage5():
@@ -466,17 +466,17 @@ def helpmessage5():
         key = settings['keyCommand']
     else:
         key = ''
-    helpMessage5 =  ". [ Menu Setting ]" + "\n" + \
-                    ". " + key + "AutoAdd「On/Off」" + "\n" + \
-                    ". " + key + "AutoJoin「On/Off」" + "\n" + \
-                    ". " + key + "AutoJoinTicket「On/Off」" + "\n" + \
-                    ". " + key + "AutoLeave「On/Off」" + "\n" + \
-                    ". " + key + "AutoRead「On/Off」" + "\n" + \
-                    ". " + key + "AutoRespon「On/Off」" + "\n" + \
-                    ". " + key + "CheckContact「On/Off」" + "\n" + \
-                    ". " + key + "CheckPost「On/Off」" + "\n" + \
-                    ". " + key + "CheckSticker「On/Off」" + "\n" + \
-                    ". UnsendChat「On/Off」"
+    helpMessage5 =  "🎯 [ Menu Setting ]" + "\n" + \
+                    "🗒 " + key + "AutoAdd「On/Off」" + "\n" + \
+                    "🗒 " + key + "AutoJoin「On/Off」" + "\n" + \
+                    "🗒 " + key + "AutoJoinTicket「On/Off」" + "\n" + \
+                    "🗒 " + key + "AutoLeave「On/Off」" + "\n" + \
+                    "🗒 " + key + "AutoRead「On/Off」" + "\n" + \
+                    "🗒 " + key + "AutoRespon「On/Off」" + "\n" + \
+                    "🗒 " + key + "CheckContact「On/Off」" + "\n" + \
+                    "🗒 " + key + "CheckPost「On/Off」" + "\n" + \
+                    "🗒 " + key + "CheckSticker「On/Off」" + "\n" + \
+                    "🗒 UnsendChat「On/Off」"
     return helpMessage5
 
 def helptexttospeech():
@@ -484,7 +484,7 @@ def helptexttospeech():
         key = settings['keyCommand']
     else:
         key = ''
-    helpTextToSpeech =  "╔══[ Help TextToSpeech ]" + "\n" + \
+    helpTextToSpeech =  "╔▬▬▬🎯 Help TextToSpeech 🎯" + "\n" + \
                         "╠ " + key + "af : Afrikaans" + "\n" + \
                         "╠ " + key + "sq : Albanian" + "\n" + \
                         "╠ " + key + "ar : Arabic" + "\n" + \
@@ -538,8 +538,8 @@ def helptexttospeech():
                         "╠ " + key + "uk : Ukrainian" + "\n" + \
                         "╠ " + key + "vi : Vietnamese" + "\n" + \
                         "╠ " + key + "cy : Welsh" + "\n" + \
-                        "╚══[ Doraemon Bot ]" + "\n" + "\n\n" + \
-                        "Contoh : " + key + "say-id apa kabar"
+                        "╚▬▬▬🎯ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™🎯" + "\n" + "\n\n" + \
+                        "Contoh : " + key + "say-id ada berapa"
     return helpTextToSpeech
 
 def helptranslate():
@@ -547,7 +547,7 @@ def helptranslate():
         key = settings['keyCommand']
     else:
         key = ''
-    helpTranslate = "╔══[ Help Translate ]" + "\n" + \
+    helpTranslate = "╔▬▬▬🎯 Help Translate 🎯" + "\n" + \
                     "╠ " + key + "af : afrikaans" + "\n" + \
                     "╠ " + key + "sq : albanian" + "\n" + \
                     "╠ " + key + "am : amharic" + "\n" + \
@@ -654,8 +654,8 @@ def helptranslate():
                     "╠ " + key + "zu : zulu" + "\n" + \
                     "╠ " + key + "fil : Filipino" + "\n" + \
                     "╠ " + key + "he : Hebrew" + "\n" + \
-                    "╚══[ Doraemon Bot ]" + "\n" + "\n\n" + \
-                    "Contoh : " + key + "tr-id apa kabar"
+                    "╚▬▬▬🎯ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™🎯" + "\n" + "\n\n" + \
+                    "Contoh : " + key + "tr-id ada apa"
     return helpTranslate
 
 def clientBot(op):
@@ -767,7 +767,7 @@ def clientBot(op):
                                  timeNow = time.time()
                                  runtime = timeNow - botStart
                                  runtime = format_timespan(runtime)
-                                 client.sendMessage(to, "[ Running Time ]\n Durasi: {}".format(str(runtime)), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'Krisnabiru', 'AGENT_LINK': 'https://bit.ly/2skbvr2'})                                                  
+                                 client.sendMessage(to, "[ Running Time ]\n Durasi: {}".format(str(runtime)), contentMetadata = {'AGENT_ICON': 'http://dl.profile.line-cdn.net/'+client.getContact(clientMid).pictureStatus, 'AGENT_NAME': 'ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™', 'AGENT_LINK': 'https://bit.ly/2skbvr2'})                                                  
                             elif cmd == "restart":
                                 client.sendMessage(to, "Bot successfully restarted")
                                 restartBot()
@@ -846,30 +846,30 @@ def clientBot(op):
                                 client.sendMessage(to, "Detect mention is not actived")
                             elif cmd == "status":
                                 try:
-                                    ret_ = "╔══[ Status ]"
-                                    if settings["autoAdd"] == True: ret_ += "\n╠══[ ON ] Auto Add"
-                                    else: ret_ += "\n╠══[ OFF ] Auto Add"
-                                    if settings["autoJoin"] == True: ret_ += "\n╠══[ ON ] Auto Join"
-                                    else: ret_ += "\n╠══[ OFF ] Auto Join"
-                                    if settings["autoLeave"] == True: ret_ += "\n╠══[ ON ] Auto Leave Room"
-                                    else: ret_ += "\n╠══[ OFF ] Auto Leave Room"
-                                    if settings["autoJoinTicket"] == True: ret_ += "\n╠══[ ON ] Auto Join Ticket"
-                                    else: ret_ += "\n╠══[ OFF ] Auto Join Ticket"
-                                    if settings["autoRead"] == True: ret_ += "\n╠══[ ON ] Auto Read"
-                                    else: ret_ += "\n╠══[ OFF ] Auto Read"
-                                    if settings["autoRespon"] == True: ret_ += "\n╠══[ ON ] Detect Mention"
-                                    else: ret_ += "\n╠══[ OFF ] Detect Mention"
-                                    if settings["checkContact"] == True: ret_ += "\n╠══[ ON ] Check Contact"
-                                    else: ret_ += "\n╠══[ OFF ] Check Contact"
-                                    if settings["checkPost"] == True: ret_ += "\n╠══[ ON ] Check Post"
-                                    else: ret_ += "\n╠══[ OFF ] Check Post"
-                                    if settings["checkSticker"] == True: ret_ += "\n╠══[ ON ] Check Sticker"
-                                    else: ret_ += "\n╠══[ OFF ] Check Sticker"
-                                    if settings["setKey"] == True: ret_ += "\n╠══[ ON ] Set Key"
-                                    else: ret_ += "\n╠══[ OFF ] Set Key"
-                                    if settings["unsendMessage"] == True: ret_ += "\n╠══[ ON ] Unsend Message"
-                                    else: ret_ += "\n╠══[ OFF ] Unsend Message"
-                                    ret_ += "\n╚══[ Status ]"
+                                    ret_ = "╔▬▬▬ ⚙ Status ⚙ ▬"
+                                    if settings["autoAdd"] == True: ret_ += "\n╠▬▬▬ ON ▬ Auto Add"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Auto Add"
+                                    if settings["autoJoin"] == True: ret_ += "\n╠▬▬▬ ON ▬ Auto Join"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Auto Join"
+                                    if settings["autoLeave"] == True: ret_ += "\n╠▬▬▬ ON ▬ Auto Leave Room"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Auto Leave Room"
+                                    if settings["autoJoinTicket"] == True: ret_ += "\n╠▬▬▬ ON ▬ Auto Join Ticket"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Auto Join Ticket"
+                                    if settings["autoRead"] == True: ret_ += "\n╠▬▬▬ ON ▬ Auto Read"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Auto Read"
+                                    if settings["autoRespon"] == True: ret_ += "\n╠▬▬▬ ON ▬ Detect Mention"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Detect Mention"
+                                    if settings["checkContact"] == True: ret_ += "\n╠▬▬▬ ON ▬ Check Contact"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Check Contact"
+                                    if settings["checkPost"] == True: ret_ += "\n╠▬▬▬ ON ▬ Check Post"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Check Post"
+                                    if settings["checkSticker"] == True: ret_ += "\n╠▬▬▬ ON ▬ Check Sticker"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Check Sticker"
+                                    if settings["setKey"] == True: ret_ += "\n╠▬▬▬ ON ▬ Set Key"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Set Key"
+                                    if settings["unsendMessage"] == True: ret_ += "\n╠▬▬▬ ON ▬ Unsend Message"
+                                    else: ret_ += "\n╠▬▬▬ OFF ▬ Unsend Message"
+                                    ret_ += "\n╚▬▬▬ 🔨 Status 🔨 ▬"
                                     client.sendMessage(to, str(ret_))
                                 except Exception as e:
                                     client.sendMessage(msg.to, str(e))
@@ -1087,7 +1087,7 @@ def clientBot(op):
                                     gQr = "Terbuka"
                                     gTicket = "https://line.me/R/ti/g/{}".format(str(client.reissueGroupTicket(group.id)))
                                 path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                                ret_ = "╔══[ Group Info ]"
+                                ret_ = "╔▬▬▬ Group Info ✍"
                                 ret_ += "\n╠ Nama Group : {}".format(str(group.name))
                                 ret_ += "\n╠ ID Group : {}".format(group.id)
                                 ret_ += "\n╠ Pembuat : {}".format(str(gCreator))
@@ -1095,28 +1095,28 @@ def clientBot(op):
                                 ret_ += "\n╠ Jumlah Pending : {}".format(gPending)
                                 ret_ += "\n╠ Group Qr : {}".format(gQr)
                                 ret_ += "\n╠ Group Ticket : {}".format(gTicket)
-                                ret_ += "\n╚══[ Finish ]"
+                                ret_ += "\n╚▬▬▬ Finish ✍"
                                 client.sendMessage(to, str(ret_))
                                 client.sendImageWithURL(to, path)
                             elif cmd == 'groupmemberlist':
                                 if msg.toType == 2:
                                     group = client.getGroup(to)
-                                    ret_ = "╔══[ Member List ]"
+                                    ret_ = "╔▬▬▬ Member List ✍"
                                     no = 0 + 1
                                     for mem in group.members:
                                         ret_ += "\n╠ {}. {}".format(str(no), str(mem.displayName))
                                         no += 1
-                                    ret_ += "\n╚══[ Total {} ]".format(str(len(group.members)))
+                                    ret_ += "\n╚▬▬▬ Total {} Biji ✍".format(str(len(group.members)))
                                     client.sendMessage(to, str(ret_))
                             elif cmd == 'grouplist':
                                     groups = client.groups
-                                    ret_ = "╔══[ Group List ]"
+                                    ret_ = "╔▬▬▬ Group List ✍"
                                     no = 0 + 1
                                     for gid in groups:
                                         group = client.getGroup(gid)
                                         ret_ += "\n╠ {}. {} | {}".format(str(no), str(group.name), str(len(group.members)))
                                         no += 1
-                                    ret_ += "\n╚══[ Total {} Groups ]".format(str(len(groups)))
+                                    ret_ += "\n╚▬▬▬ Total {} Groups ✍".format(str(len(groups)))
                                     client.sendMessage(to, str(ret_))
 # Pembatas Script #
                             elif cmd == "changepictureprofile":
@@ -1296,7 +1296,7 @@ def clientBot(op):
                                         zx = ""
                                         zxc = ""
                                         zx2 = []
-                                        xpesan = '[ R E A D E R ]\n'
+                                        xpesan = '▬▬▬R E A D E R▬▬▬\n'
                                     for x in range(len(cmem)):
                                         xname = str(cmem[x].displayName)
                                         pesan = ''
@@ -1347,10 +1347,10 @@ def clientBot(op):
                                 if settings["mimic"]["target"] == {}:
                                     client.sendMessage(msg.to,"Tidak ada target")
                                 else:
-                                    mc = "╔══[ Mimic List ]"
+                                    mc = "╔▬▬▬[ Mimic List ]"
                                     for mi_d in settings["mimic"]["target"]:
                                         mc += "\n╠ "+client.getContact(mi_d).displayName
-                                    mc += "\n╚══[ Finish ]"
+                                    mc += "\n╚▬▬▬[ Finish ]"
                                     client.sendMessage(msg.to,mc)
                                 
                             elif cmd.startswith("mimic"):
@@ -1382,7 +1382,7 @@ def clientBot(op):
                                     r = requests.get('https://script.google.com/macros/exec?service=AKfycbw7gKzP-WYV2F5mc9RaR7yE3Ve1yN91Tjs91hp_jHSE02dSv9w&nama=ervan&tanggal='+tanggal)
                                     data=r.text
                                     data=json.loads(data)
-                                    ret_ = "[ D A T E ]"
+                                    ret_ = "▬▬▬D A T E▬▬▬"
                                     ret_ += "\nDate Of Birth : {}".format(str(data["data"]["lahir"]))
                                     ret_ += "\nAge : {}".format(str(data["data"]["usia"]))
                                     ret_ += "\nBirthday : {}".format(str(data["data"]["ultah"]))
@@ -1399,7 +1399,7 @@ def clientBot(op):
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
                                 if data[1] != "Subuh : " and data[2] != "Dzuhur : " and data[3] != "Ashar : " and data[4] != "Maghrib : " and data[5] != "Isya : ":
-                                    ret_ = "╔══[ Jadwal Sholat Sekitar " + data[0] + " ]"
+                                    ret_ = "╔▬▬▬ Jadwal Sholat Sekitar " + data[0] + " ▬"
                                     ret_ += "\n╠ Tanggal : " + datetime.strftime(timeNow,'%Y-%m-%d')
                                     ret_ += "\n╠ Jam : " + datetime.strftime(timeNow,'%H:%M:%S')
                                     ret_ += "\n╠ " + data[1]
@@ -1407,7 +1407,7 @@ def clientBot(op):
                                     ret_ += "\n╠ " + data[3]
                                     ret_ += "\n╠ " + data[4]
                                     ret_ += "\n╠ " + data[5]
-                                    ret_ += "\n╚══[ Success ]"
+                                    ret_ += "\n╚▬▬▬ Success ▬▬▬"
                                     client.sendMessage(msg.to, str(ret_))
                             elif cmd.startswith("checkweather "):
                                 try:
@@ -1419,16 +1419,16 @@ def clientBot(op):
                                     tz = pytz.timezone("Asia/Makassar")
                                     timeNow = datetime.now(tz=tz)
                                     if "result" not in data:
-                                        ret_ = "╔══[ Weather Status ]"
+                                        ret_ = "╔▬▬Weather Status▬▬"
                                         ret_ += "\n╠ Location : " + data[0].replace("Temperatur di kota ","")
                                         ret_ += "\n╠ Suhu : " + data[1].replace("Suhu : ","") + "°C"
                                         ret_ += "\n╠ Kelembaban : " + data[2].replace("Kelembaban : ","") + "%"
                                         ret_ += "\n╠ Tekanan udara : " + data[3].replace("Tekanan udara : ","") + "HPa"
                                         ret_ += "\n╠ Kecepatan angin : " + data[4].replace("Kecepatan angin : ","") + "m/s"
-                                        ret_ += "\n╠══[ Time Status ]"
+                                        ret_ += "\n╠▬▬Time Status▬▬"
                                         ret_ += "\n╠ Tanggal : " + datetime.strftime(timeNow,'%Y-%m-%d')
                                         ret_ += "\n╠ Jam : " + datetime.strftime(timeNow,'%H:%M:%S') + " WIB"
-                                        ret_ += "\n╚══[ Success ]"
+                                        ret_ += "\n╚▬▬▬Success▬▬▬"
                                         client.sendMessage(to, str(ret_))
                                 except Exception as error:
                                     logError(error)
@@ -1441,10 +1441,10 @@ def clientBot(op):
                                     data = json.loads(data)
                                     if data[0] != "" and data[1] != "" and data[2] != "":
                                         link = "https://www.google.co.id/maps/@{},{},15z".format(str(data[1]), str(data[2]))
-                                        ret_ = "╔══[ Location Status ]"
+                                        ret_ = "╔▬▬▬Location Status▬▬▬"
                                         ret_ += "\n╠ Location : " + data[0]
                                         ret_ += "\n╠ Google Maps : " + link
-                                        ret_ += "\n╚══[ Success ]"
+                                        ret_ += "\n╚▬▬▬    Success    ▬▬▬"
                                         client.sendMessage(to, str(ret_))
                                 except Exception as error:
                                     logError(error)
@@ -1456,7 +1456,7 @@ def clientBot(op):
                                     data = r.text
                                     data = json.loads(data)
                                     if data != []:
-                                        ret_ = "╔══[ Profile Instagram ]"
+                                        ret_ = "╔▬▬▬ Profile Instagram"
                                         ret_ += "\n╠ Nama : {}".format(str(data["graphql"]["user"]["full_name"]))
                                         ret_ += "\n╠ Username : {}".format(str(data["graphql"]["user"]["username"]))
                                         ret_ += "\n╠ Bio : {}".format(str(data["graphql"]["user"]["biography"]))
@@ -1471,7 +1471,7 @@ def clientBot(op):
                                         else:
                                             ret_ += "\n╠ Akun Pribadi : Tidak"
                                         ret_ += "\n╠ Total Post : {}".format(str(data["graphql"]["user"]["edge_owner_to_timeline_media"]["count"]))
-                                        ret_ += "\n╚══[ https://www.instagram.com/{} ]".format(search)
+                                        ret_ += "\n╚▬▬▬ https://www.instagram.com/{} ".format(search)
                                         path = data["graphql"]["user"]["profile_pic_url_hd"]
                                         client.sendImageWithURL(to, str(path))
                                         client.sendMessage(to, str(ret_))
@@ -1492,10 +1492,10 @@ def clientBot(op):
                                             client.sendImageWithURL(msg.to, str(data["media"]["url"]))
                                         if data["media"]["mediatype"] == 2:
                                             client.sendVideoWithURL(msg.to, str(data["media"]["url"]))
-                                        ret_ = "╔══[ Info Post ]"
+                                        ret_ = "╔▬▬▬ Info Post"
                                         ret_ += "\n╠ Jumlah Like : {}".format(str(data["media"]["like_count"]))
                                         ret_ += "\n╠ Jumlah Comment : {}".format(str(data["media"]["comment_count"]))
-                                        ret_ += "\n╚══[ Caption ]\n{}".format(str(data["media"]["caption"]))
+                                        ret_ += "\n╚▬▬▬ Caption\n{}".format(str(data["media"]["caption"]))
                                         client.sendMessage(to, str(ret_))
                                 except Exception as error:
                                     logError(error)
@@ -1557,11 +1557,11 @@ def clientBot(op):
                                 data = json.loads(data)
                                 if len(cond) == 1:
                                     num = 0
-                                    ret_ = "╔══[ Result Music ]"
+                                    ret_ = "╔▬▬▬[ Result Music ]"
                                     for music in data["result"]:
                                         num += 1
                                         ret_ += "\n╠ {}. {}".format(str(num), str(music["single"]))
-                                    ret_ += "\n╚══[ Total {} Music ]".format(str(len(data["result"])))
+                                    ret_ += "\n╚▬▬▬[ Total {} Music ]".format(str(len(data["result"])))
                                     ret_ += "\n\nUntuk Melihat Details Music, silahkan gunakan command {}SearchMusic {}|「number」".format(str(setKey), str(search))
                                     client.sendMessage(to, str(ret_))
                                 elif len(cond) == 2:
@@ -1572,12 +1572,12 @@ def clientBot(op):
                                         data = result.text
                                         data = json.loads(data)
                                         if data["result"] != []:
-                                            ret_ = "╔══[ Music ]"
+                                            ret_ = "╔▬▬▬[ Music ]"
                                             ret_ += "\n╠ Title : {}".format(str(data["result"]["song"]))
                                             ret_ += "\n╠ Album : {}".format(str(data["result"]["album"]))
                                             ret_ += "\n╠ Size : {}".format(str(data["result"]["size"]))
                                             ret_ += "\n╠ Link : {}".format(str(data["result"]["mp3"][0]))
-                                            ret_ += "\n╚══[ Finish ]"
+                                            ret_ += "\n╚▬▬▬[ Finish ]"
                                             client.sendImageWithURL(to, str(data["result"]["img"]))
                                             client.sendMessage(to, str(ret_))
                                             client.sendAudioWithURL(to, str(data["result"]["mp3"][0]))
@@ -1591,11 +1591,11 @@ def clientBot(op):
                                 data = json.loads(data)
                                 if len(cond) == 1:
                                     num = 0
-                                    ret_ = "╔══[ Result Lyric ]"
+                                    ret_ = "╔▬▬▬ Result Lyric"
                                     for lyric in data["results"]:
                                         num += 1
                                         ret_ += "\n╠ {}. {}".format(str(num), str(lyric["single"]))
-                                    ret_ += "\n╚══[ Total {} Music ]".format(str(len(data["results"])))
+                                    ret_ += "\n╚▬▬▬ Total {} Music".format(str(len(data["results"])))
                                     ret_ += "\n\nUntuk melihat details lyric, silahkan gunakan command {}SearchLyric {}|「number」".format(str(setKey), str(search))
                                     client.sendMessage(to, str(ret_))
                                 elif len(cond) == 2:
@@ -1619,15 +1619,15 @@ def clientBot(op):
                                 params = {"search_query": search}
                                 r = requests.get("https://www.youtube.com/results", params = params)
                                 soup = BeautifulSoup(r.content, "html5lib")
-                                ret_ = "╔══[ Youtube Result ]"
+                                ret_ = "╔▬▬▬[ Youtube Result ]"
                                 datas = []
                                 for data in soup.select(".yt-lockup-title > a[title]"):
                                     if "&lists" not in data["href"]:
                                         datas.append(data)
                                 for data in datas:
-                                    ret_ += "\n╠══[ {} ]".format(str(data["title"]))
+                                    ret_ += "\n╠▬▬▬[ {} ]▬▬▬".format(str(data["title"]))
                                     ret_ += "\n╠ https://www.youtube.com{}".format(str(data["href"]))
-                                ret_ += "\n╚══[ Total {} ]".format(len(datas))
+                                ret_ += "\n╚▬▬▬[ Total {} ]".format(len(datas))
                                 client.sendMessage(to, str(ret_))
                             elif cmd.startswith("tr-"):
                                 sep = text.split("-")
@@ -1688,12 +1688,12 @@ def clientBot(op):
                             stk_id = msg.contentMetadata['STKID']
                             stk_ver = msg.contentMetadata['STKVER']
                             pkg_id = msg.contentMetadata['STKPKGID']
-                            ret_ = "╔══[ Sticker Info ]"
+                            ret_ = "╔▬▬▬[ Sticker Info ]"
                             ret_ += "\n╠ STICKER ID : {}".format(stk_id)
                             ret_ += "\n╠ STICKER PACKAGES ID : {}".format(pkg_id)
                             ret_ += "\n╠ STICKER VERSION : {}".format(stk_ver)
                             ret_ += "\n╠ STICKER URL : line://shop/detail/{}".format(pkg_id)
-                            ret_ += "\n╚══[ Finish ]"
+                            ret_ += "\n╚▬▬▬[ Finish ]"
                             client.sendMessage(to, str(ret_))
                     elif msg.contentType == 13:
                         if settings["checkContact"] == True:
@@ -1708,20 +1708,20 @@ def clientBot(op):
                                     client.sendImageWithURL(to, str(path))
                                 except:
                                     pass
-                                ret_ = "╔══[ Details Contact ]"
+                                ret_ = "╔▬▬▬[ Details Contact ]"
                                 ret_ += "\n╠ Nama : {}".format(str(contact.displayName))
                                 ret_ += "\n╠ MID : {}".format(str(msg.contentMetadata["mid"]))
                                 ret_ += "\n╠ Bio : {}".format(str(contact.statusMessage))
                                 ret_ += "\n╠ Gambar Profile : http://dl.profile.line-cdn.net/{}".format(str(contact.pictureStatus))
                                 ret_ += "\n╠ Gambar Cover : {}".format(str(cover))
-                                ret_ += "\n╚══[ Finish ]"
+                                ret_ += "\n╚▬▬▬[ Finish ]"
                                 client.sendMessage(to, str(ret_))
                             except:
                                 client.sendMessage(to, "Kontak tidak valid")
                     elif msg.contentType == 16:
                         if settings["checkPost"] == True:
                             try:
-                                ret_ = "╔══[ Details Post ]"
+                                ret_ = "╔▬▬▬[ Details Post ]"
                                 if msg.contentMetadata["serviceType"] == "GB":
                                     contact = client.getContact(sender)
                                     auth = "\n╠ Penulis : {}".format(str(contact.displayName))
@@ -1752,7 +1752,7 @@ def clientBot(op):
                                 if "text" in msg.contentMetadata:
                                     text = "\n╠ Tulisan : {}".format(str(msg.contentMetadata["text"]))
                                     ret_ += text
-                                ret_ += "\n╚══[ Finish ]"
+                                ret_ += "\n╚▬▬▬[ Finish ]"
                                 client.sendMessage(to, str(ret_))
                             except:
                                 client.sendMessage(to, "Post tidak valid")
@@ -1820,7 +1820,7 @@ def clientBot(op):
                             for mention in mentionees:
                                 if clientMid in mention["M"]:
                                     if settings["autoRespon"] == True:
-                                        sendMention(sender, "Oi Asw @!,kalo kangen pc aja jangan tag tag", [sender])
+                                        sendMention(sender, "Heh @!,kalo kangen pm aja jangan tag-tag..", [sender])
                                     break
             except Exception as error:
                 logError(error)
